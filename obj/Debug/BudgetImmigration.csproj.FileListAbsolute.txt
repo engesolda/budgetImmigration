@@ -1,0 +1,22 @@
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.Properties.Resources.resources
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.csproj.GenerateResource.Cache
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.NewBugdet.resources
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.Tutorial.resources
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\bin\Debug\Contabiliza Canadá.exe.config
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\bin\Debug\Contabiliza Canadá.exe
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\bin\Debug\Contabiliza Canadá.pdb
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\obj\Debug\Contabiliza Canadá.exe
+C:\Users\Ryan\Desktop\BudgetImmigration\BudgetImmigration\obj\Debug\Contabiliza Canadá.pdb
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\bin\Debug\Contabiliza Canadá.exe.config
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\bin\Debug\Contabiliza Canadá.exe
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\bin\Debug\Contabiliza Canadá.pdb
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.csprojAssemblyReference.cache
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.NewBugdet.resources
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.Properties.Resources.resources
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.Tutorial.resources
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.csproj.GenerateResource.cache
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.csproj.CoreCompileInputs.cache
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\Contabiliza Canadá.exe
+C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\Contabiliza Canadá.pdb
