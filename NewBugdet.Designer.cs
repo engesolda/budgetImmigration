@@ -31,26 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewBugdet));
             this.MainTab = new System.Windows.Forms.TabControl();
-            this.imageList = new System.Windows.Forms.ImageList(this.components);
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.label12 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.tesetv = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblAnoReal = new System.Windows.Forms.Label();
-            this.lblReal = new System.Windows.Forms.Label();
-            this.yearPrev = new System.Windows.Forms.Label();
-            this.lblDolar = new System.Windows.Forms.Label();
-            this.negPrev = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.posPrev = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.savePath = new System.Windows.Forms.SaveFileDialog();
-            this.fileLoad = new System.Windows.Forms.OpenFileDialog();
-            this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.tabCurrency = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMoneySaved = new System.Windows.Forms.TextBox();
             this.label154 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -61,15 +43,15 @@
             this.txtCurrency = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabHouse = new System.Windows.Forms.TabPage();
-            this.txtB99 = new System.Windows.Forms.TextBox();
-            this.txtB88 = new System.Windows.Forms.TextBox();
-            this.txtB77 = new System.Windows.Forms.TextBox();
-            this.txtB66 = new System.Windows.Forms.TextBox();
-            this.txtB55 = new System.Windows.Forms.TextBox();
-            this.txtB44 = new System.Windows.Forms.TextBox();
-            this.txtB33 = new System.Windows.Forms.TextBox();
-            this.txtB22 = new System.Windows.Forms.TextBox();
-            this.txtB11 = new System.Windows.Forms.TextBox();
+            this.tab1f10s = new System.Windows.Forms.TextBox();
+            this.tab1f9s = new System.Windows.Forms.TextBox();
+            this.tab1f8s = new System.Windows.Forms.TextBox();
+            this.tab1f7s = new System.Windows.Forms.TextBox();
+            this.tab1f6s = new System.Windows.Forms.TextBox();
+            this.tab1f5s = new System.Windows.Forms.TextBox();
+            this.tab1f4s = new System.Windows.Forms.TextBox();
+            this.tab1f3s = new System.Windows.Forms.TextBox();
+            this.tab1f1s = new System.Windows.Forms.TextBox();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
@@ -81,104 +63,104 @@
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.tab1f11 = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.txtB9 = new System.Windows.Forms.TextBox();
+            this.tab1f10 = new System.Windows.Forms.TextBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.txtB8 = new System.Windows.Forms.TextBox();
+            this.tab1f9 = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.txtB7 = new System.Windows.Forms.TextBox();
+            this.tab1f8 = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.txtB6 = new System.Windows.Forms.TextBox();
+            this.tab1f7 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.txtB5 = new System.Windows.Forms.TextBox();
+            this.tab1f6 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.txtB4 = new System.Windows.Forms.TextBox();
+            this.tab1f5 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.txtB3 = new System.Windows.Forms.TextBox();
+            this.tab1f4 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.txtB2 = new System.Windows.Forms.TextBox();
+            this.tab1f3 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.txtBoxMobilia = new System.Windows.Forms.TextBox();
+            this.tab1f2 = new System.Windows.Forms.TextBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.txtB1 = new System.Windows.Forms.TextBox();
+            this.tab1f1 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.tabRelax = new System.Windows.Forms.TabPage();
-            this.txtC77 = new System.Windows.Forms.TextBox();
-            this.txtC88 = new System.Windows.Forms.TextBox();
-            this.txtC99 = new System.Windows.Forms.TextBox();
-            this.txtC33 = new System.Windows.Forms.TextBox();
-            this.txtC44 = new System.Windows.Forms.TextBox();
-            this.txtC55 = new System.Windows.Forms.TextBox();
-            this.txtC66 = new System.Windows.Forms.TextBox();
-            this.txtC22 = new System.Windows.Forms.TextBox();
-            this.txtC11 = new System.Windows.Forms.TextBox();
+            this.tab2f7s = new System.Windows.Forms.TextBox();
+            this.tab2f8s = new System.Windows.Forms.TextBox();
+            this.tab2f9s = new System.Windows.Forms.TextBox();
+            this.tab2f3s = new System.Windows.Forms.TextBox();
+            this.tab2f4s = new System.Windows.Forms.TextBox();
+            this.tab2f5s = new System.Windows.Forms.TextBox();
+            this.tab2f6s = new System.Windows.Forms.TextBox();
+            this.tab2f2s = new System.Windows.Forms.TextBox();
+            this.tab2f1s = new System.Windows.Forms.TextBox();
             this.pictureBox71 = new System.Windows.Forms.PictureBox();
             this.label121 = new System.Windows.Forms.Label();
-            this.txtC9 = new System.Windows.Forms.TextBox();
+            this.tab2f9 = new System.Windows.Forms.TextBox();
             this.label122 = new System.Windows.Forms.Label();
             this.pictureBox64 = new System.Windows.Forms.PictureBox();
             this.label107 = new System.Windows.Forms.Label();
-            this.txtC8 = new System.Windows.Forms.TextBox();
+            this.tab2f8 = new System.Windows.Forms.TextBox();
             this.label108 = new System.Windows.Forms.Label();
             this.pictureBox65 = new System.Windows.Forms.PictureBox();
             this.label109 = new System.Windows.Forms.Label();
-            this.txtC7 = new System.Windows.Forms.TextBox();
+            this.tab2f7 = new System.Windows.Forms.TextBox();
             this.label110 = new System.Windows.Forms.Label();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.label53 = new System.Windows.Forms.Label();
-            this.txtC6 = new System.Windows.Forms.TextBox();
+            this.tab2f6 = new System.Windows.Forms.TextBox();
             this.label54 = new System.Windows.Forms.Label();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.label51 = new System.Windows.Forms.Label();
-            this.txtC5 = new System.Windows.Forms.TextBox();
+            this.tab2f5 = new System.Windows.Forms.TextBox();
             this.label52 = new System.Windows.Forms.Label();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.label49 = new System.Windows.Forms.Label();
-            this.txtC4 = new System.Windows.Forms.TextBox();
+            this.tab2f4 = new System.Windows.Forms.TextBox();
             this.label50 = new System.Windows.Forms.Label();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.txtC3 = new System.Windows.Forms.TextBox();
+            this.tab2f3 = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.txtC2 = new System.Windows.Forms.TextBox();
+            this.tab2f2 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.txtC1 = new System.Windows.Forms.TextBox();
+            this.tab2f1 = new System.Windows.Forms.TextBox();
             this.label42 = new System.Windows.Forms.Label();
             this.tabFood = new System.Windows.Forms.TabPage();
-            this.txtD11 = new System.Windows.Forms.TextBox();
-            this.txtD22 = new System.Windows.Forms.TextBox();
+            this.tab3f1s = new System.Windows.Forms.TextBox();
+            this.tab3f2s = new System.Windows.Forms.TextBox();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.label44 = new System.Windows.Forms.Label();
-            this.txtD2 = new System.Windows.Forms.TextBox();
+            this.tab3f2 = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.label47 = new System.Windows.Forms.Label();
-            this.txtD1 = new System.Windows.Forms.TextBox();
+            this.tab3f1 = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.tabPet = new System.Windows.Forms.TabPage();
             this.pictureBox50 = new System.Windows.Forms.PictureBox();
             this.label69 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label70 = new System.Windows.Forms.Label();
-            this.txtE11 = new System.Windows.Forms.TextBox();
-            this.txtE22 = new System.Windows.Forms.TextBox();
+            this.tab4f1s = new System.Windows.Forms.TextBox();
+            this.tab4f2s = new System.Windows.Forms.TextBox();
             this.pictureBox40 = new System.Windows.Forms.PictureBox();
             this.label63 = new System.Windows.Forms.Label();
             this.textBox26 = new System.Windows.Forms.TextBox();
@@ -193,185 +175,185 @@
             this.label62 = new System.Windows.Forms.Label();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
             this.label55 = new System.Windows.Forms.Label();
-            this.txtE2 = new System.Windows.Forms.TextBox();
+            this.tab4f2 = new System.Windows.Forms.TextBox();
             this.label56 = new System.Windows.Forms.Label();
             this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.label57 = new System.Windows.Forms.Label();
-            this.txtE1 = new System.Windows.Forms.TextBox();
+            this.tab4f1 = new System.Windows.Forms.TextBox();
             this.label58 = new System.Windows.Forms.Label();
             this.tabCloth = new System.Windows.Forms.TabPage();
-            this.txtF11 = new System.Windows.Forms.TextBox();
+            this.tab5f2s = new System.Windows.Forms.TextBox();
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.label71 = new System.Windows.Forms.Label();
-            this.txtF1 = new System.Windows.Forms.TextBox();
+            this.tab5f2 = new System.Windows.Forms.TextBox();
             this.label72 = new System.Windows.Forms.Label();
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
             this.label73 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.tab5f1 = new System.Windows.Forms.TextBox();
             this.label74 = new System.Windows.Forms.Label();
             this.tabJob = new System.Windows.Forms.TabPage();
-            this.txtG22 = new System.Windows.Forms.TextBox();
-            this.txtG11 = new System.Windows.Forms.TextBox();
+            this.tab6f2s = new System.Windows.Forms.TextBox();
+            this.tab6f1s = new System.Windows.Forms.TextBox();
             this.pictureBox46 = new System.Windows.Forms.PictureBox();
             this.label75 = new System.Windows.Forms.Label();
-            this.txtG2 = new System.Windows.Forms.TextBox();
+            this.tab6f2 = new System.Windows.Forms.TextBox();
             this.label76 = new System.Windows.Forms.Label();
             this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.label77 = new System.Windows.Forms.Label();
-            this.txtG1 = new System.Windows.Forms.TextBox();
+            this.tab6f1 = new System.Windows.Forms.TextBox();
             this.label78 = new System.Windows.Forms.Label();
             this.tabStudy = new System.Windows.Forms.TabPage();
-            this.txtH22 = new System.Windows.Forms.TextBox();
-            this.txtH11 = new System.Windows.Forms.TextBox();
+            this.tab7f2s = new System.Windows.Forms.TextBox();
+            this.tab7f1s = new System.Windows.Forms.TextBox();
             this.pictureBox53 = new System.Windows.Forms.PictureBox();
             this.label89 = new System.Windows.Forms.Label();
-            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.tab7f3 = new System.Windows.Forms.TextBox();
             this.label90 = new System.Windows.Forms.Label();
             this.pictureBox41 = new System.Windows.Forms.PictureBox();
             this.label65 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.tab7f5 = new System.Windows.Forms.TextBox();
             this.label66 = new System.Windows.Forms.Label();
             this.pictureBox42 = new System.Windows.Forms.PictureBox();
             this.label67 = new System.Windows.Forms.Label();
-            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.tab7f4 = new System.Windows.Forms.TextBox();
             this.label68 = new System.Windows.Forms.Label();
             this.pictureBox48 = new System.Windows.Forms.PictureBox();
             this.label79 = new System.Windows.Forms.Label();
-            this.txtH2 = new System.Windows.Forms.TextBox();
+            this.tab7f2 = new System.Windows.Forms.TextBox();
             this.label80 = new System.Windows.Forms.Label();
             this.pictureBox49 = new System.Windows.Forms.PictureBox();
             this.label81 = new System.Windows.Forms.Label();
-            this.txtH1 = new System.Windows.Forms.TextBox();
+            this.tab7f1 = new System.Windows.Forms.TextBox();
             this.label82 = new System.Windows.Forms.Label();
             this.tabVisa = new System.Windows.Forms.TabPage();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tab8f11 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox43 = new System.Windows.Forms.PictureBox();
             this.label38 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.tab8f2 = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
             this.pictureBox62 = new System.Windows.Forms.PictureBox();
             this.label103 = new System.Windows.Forms.Label();
-            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.tab8f10 = new System.Windows.Forms.TextBox();
             this.label104 = new System.Windows.Forms.Label();
             this.pictureBox63 = new System.Windows.Forms.PictureBox();
             this.label105 = new System.Windows.Forms.Label();
-            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.tab8f9 = new System.Windows.Forms.TextBox();
             this.label106 = new System.Windows.Forms.Label();
             this.pictureBox60 = new System.Windows.Forms.PictureBox();
             this.label99 = new System.Windows.Forms.Label();
-            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.tab8f8 = new System.Windows.Forms.TextBox();
             this.label100 = new System.Windows.Forms.Label();
             this.pictureBox58 = new System.Windows.Forms.PictureBox();
             this.label95 = new System.Windows.Forms.Label();
-            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.tab8f7 = new System.Windows.Forms.TextBox();
             this.label96 = new System.Windows.Forms.Label();
             this.pictureBox59 = new System.Windows.Forms.PictureBox();
             this.label97 = new System.Windows.Forms.Label();
-            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.tab8f6 = new System.Windows.Forms.TextBox();
             this.label98 = new System.Windows.Forms.Label();
             this.pictureBox56 = new System.Windows.Forms.PictureBox();
             this.label91 = new System.Windows.Forms.Label();
-            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.tab8f5 = new System.Windows.Forms.TextBox();
             this.label92 = new System.Windows.Forms.Label();
             this.pictureBox57 = new System.Windows.Forms.PictureBox();
             this.label93 = new System.Windows.Forms.Label();
-            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.tab8f4 = new System.Windows.Forms.TextBox();
             this.label94 = new System.Windows.Forms.Label();
             this.pictureBox54 = new System.Windows.Forms.PictureBox();
             this.label85 = new System.Windows.Forms.Label();
-            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.tab8f3 = new System.Windows.Forms.TextBox();
             this.label86 = new System.Windows.Forms.Label();
             this.pictureBox55 = new System.Windows.Forms.PictureBox();
             this.label87 = new System.Windows.Forms.Label();
-            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.tab8f1 = new System.Windows.Forms.TextBox();
             this.label88 = new System.Windows.Forms.Label();
             this.tabTransport = new System.Windows.Forms.TabPage();
-            this.txtI66 = new System.Windows.Forms.TextBox();
-            this.txtI55 = new System.Windows.Forms.TextBox();
-            this.txtI44 = new System.Windows.Forms.TextBox();
-            this.txtI33 = new System.Windows.Forms.TextBox();
-            this.txtI22 = new System.Windows.Forms.TextBox();
-            this.txtI11 = new System.Windows.Forms.TextBox();
+            this.tab9f9s = new System.Windows.Forms.TextBox();
+            this.tab9f8s = new System.Windows.Forms.TextBox();
+            this.tab9f5s = new System.Windows.Forms.TextBox();
+            this.tab9f3s = new System.Windows.Forms.TextBox();
+            this.tab9f2s = new System.Windows.Forms.TextBox();
+            this.tab9f1s = new System.Windows.Forms.TextBox();
             this.pictureBox80 = new System.Windows.Forms.PictureBox();
             this.label139 = new System.Windows.Forms.Label();
-            this.textBox64 = new System.Windows.Forms.TextBox();
+            this.tab9f10 = new System.Windows.Forms.TextBox();
             this.label140 = new System.Windows.Forms.Label();
             this.pictureBox74 = new System.Windows.Forms.PictureBox();
             this.label127 = new System.Windows.Forms.Label();
-            this.txtI2 = new System.Windows.Forms.TextBox();
+            this.tab9f2 = new System.Windows.Forms.TextBox();
             this.label128 = new System.Windows.Forms.Label();
             this.pictureBox72 = new System.Windows.Forms.PictureBox();
             this.label123 = new System.Windows.Forms.Label();
-            this.txtI6 = new System.Windows.Forms.TextBox();
+            this.tab9f9 = new System.Windows.Forms.TextBox();
             this.label124 = new System.Windows.Forms.Label();
             this.pictureBox73 = new System.Windows.Forms.PictureBox();
             this.label125 = new System.Windows.Forms.Label();
-            this.txtI5 = new System.Windows.Forms.TextBox();
+            this.tab9f8 = new System.Windows.Forms.TextBox();
             this.label126 = new System.Windows.Forms.Label();
             this.pictureBox61 = new System.Windows.Forms.PictureBox();
             this.label101 = new System.Windows.Forms.Label();
-            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.tab9f7 = new System.Windows.Forms.TextBox();
             this.label102 = new System.Windows.Forms.Label();
             this.pictureBox66 = new System.Windows.Forms.PictureBox();
             this.label111 = new System.Windows.Forms.Label();
-            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.tab9f6 = new System.Windows.Forms.TextBox();
             this.label112 = new System.Windows.Forms.Label();
             this.pictureBox67 = new System.Windows.Forms.PictureBox();
             this.label113 = new System.Windows.Forms.Label();
-            this.txtI4 = new System.Windows.Forms.TextBox();
+            this.tab9f5 = new System.Windows.Forms.TextBox();
             this.label114 = new System.Windows.Forms.Label();
             this.pictureBox68 = new System.Windows.Forms.PictureBox();
             this.label115 = new System.Windows.Forms.Label();
-            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.tab9f4 = new System.Windows.Forms.TextBox();
             this.label116 = new System.Windows.Forms.Label();
             this.pictureBox69 = new System.Windows.Forms.PictureBox();
             this.label117 = new System.Windows.Forms.Label();
-            this.txtI3 = new System.Windows.Forms.TextBox();
+            this.tab9f3 = new System.Windows.Forms.TextBox();
             this.label118 = new System.Windows.Forms.Label();
             this.pictureBox70 = new System.Windows.Forms.PictureBox();
             this.label119 = new System.Windows.Forms.Label();
-            this.txtI1 = new System.Windows.Forms.TextBox();
+            this.tab9f1 = new System.Windows.Forms.TextBox();
             this.label120 = new System.Windows.Forms.Label();
             this.tabTravel = new System.Windows.Forms.TabPage();
             this.pictureBox82 = new System.Windows.Forms.PictureBox();
             this.label143 = new System.Windows.Forms.Label();
-            this.textBox66 = new System.Windows.Forms.TextBox();
+            this.tab10f7 = new System.Windows.Forms.TextBox();
             this.label144 = new System.Windows.Forms.Label();
             this.pictureBox81 = new System.Windows.Forms.PictureBox();
             this.label141 = new System.Windows.Forms.Label();
-            this.textBox65 = new System.Windows.Forms.TextBox();
+            this.tab10f6 = new System.Windows.Forms.TextBox();
             this.label142 = new System.Windows.Forms.Label();
             this.pictureBox75 = new System.Windows.Forms.PictureBox();
             this.label129 = new System.Windows.Forms.Label();
-            this.textBox59 = new System.Windows.Forms.TextBox();
+            this.tab10f4 = new System.Windows.Forms.TextBox();
             this.label130 = new System.Windows.Forms.Label();
             this.pictureBox76 = new System.Windows.Forms.PictureBox();
             this.label131 = new System.Windows.Forms.Label();
-            this.textBox60 = new System.Windows.Forms.TextBox();
+            this.tab10f5 = new System.Windows.Forms.TextBox();
             this.label132 = new System.Windows.Forms.Label();
             this.pictureBox77 = new System.Windows.Forms.PictureBox();
             this.label133 = new System.Windows.Forms.Label();
-            this.textBox61 = new System.Windows.Forms.TextBox();
+            this.tab10f3 = new System.Windows.Forms.TextBox();
             this.label134 = new System.Windows.Forms.Label();
             this.pictureBox78 = new System.Windows.Forms.PictureBox();
             this.label135 = new System.Windows.Forms.Label();
-            this.textBox62 = new System.Windows.Forms.TextBox();
+            this.tab10f2 = new System.Windows.Forms.TextBox();
             this.label136 = new System.Windows.Forms.Label();
             this.pictureBox79 = new System.Windows.Forms.PictureBox();
             this.label137 = new System.Windows.Forms.Label();
-            this.textBox63 = new System.Windows.Forms.TextBox();
+            this.tab10f1 = new System.Windows.Forms.TextBox();
             this.label138 = new System.Windows.Forms.Label();
             this.tabQuestion = new System.Windows.Forms.TabPage();
             this.label4 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.tab12f4 = new System.Windows.Forms.RichTextBox();
+            this.tab12f3 = new System.Windows.Forms.RichTextBox();
             this.label153 = new System.Windows.Forms.Label();
             this.label152 = new System.Windows.Forms.Label();
-            this.textBox68 = new System.Windows.Forms.TextBox();
-            this.textBox67 = new System.Windows.Forms.TextBox();
+            this.tab12f2 = new System.Windows.Forms.TextBox();
+            this.tab12f1 = new System.Windows.Forms.TextBox();
             this.label151 = new System.Windows.Forms.Label();
             this.label150 = new System.Windows.Forms.Label();
             this.label149 = new System.Windows.Forms.Label();
@@ -397,9 +379,26 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label12 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.tesetv = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.yearPrevBRL = new System.Windows.Forms.Label();
+            this.lblReal = new System.Windows.Forms.Label();
+            this.yearPrevCND = new System.Windows.Forms.Label();
+            this.lblDolar = new System.Windows.Forms.Label();
+            this.negPrev = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.posPrev = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.savePath = new System.Windows.Forms.SaveFileDialog();
+            this.fileLoad = new System.Windows.Forms.OpenFileDialog();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.MainTab.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.tabCurrency.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -488,6 +487,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             this.SuspendLayout();
             // 
@@ -514,214 +514,10 @@
             this.MainTab.TabIndex = 0;
             this.MainTab.SelectedIndexChanged += new System.EventHandler(this.MainTab_SelectedIndexChanged);
             // 
-            // imageList
-            // 
-            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
-            this.imageList.Tag = "0";
-            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList.Images.SetKeyName(0, "1.png");
-            this.imageList.Images.SetKeyName(1, "2.png");
-            this.imageList.Images.SetKeyName(2, "3.png");
-            this.imageList.Images.SetKeyName(3, "5.png");
-            this.imageList.Images.SetKeyName(4, "7.png");
-            this.imageList.Images.SetKeyName(5, "8.png");
-            this.imageList.Images.SetKeyName(6, "9.png");
-            this.imageList.Images.SetKeyName(7, "10.png");
-            this.imageList.Images.SetKeyName(8, "11.png");
-            this.imageList.Images.SetKeyName(9, "13.png");
-            this.imageList.Images.SetKeyName(10, "14.png");
-            this.imageList.Images.SetKeyName(11, "15.png");
-            this.imageList.Images.SetKeyName(12, "We are having a baby girl!.png");
-            // 
-            // toolTip1
-            // 
-            this.toolTip1.AutoPopDelay = 5000;
-            this.toolTip1.InitialDelay = 500;
-            this.toolTip1.IsBalloon = true;
-            this.toolTip1.ReshowDelay = 100;
-            this.toolTip1.ToolTipTitle = "Dica";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label12.Location = new System.Drawing.Point(4, 31);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(142, 29);
-            this.label12.TabIndex = 35;
-            this.label12.Text = "Positivos Ano";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label37.Location = new System.Drawing.Point(4, 91);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(153, 29);
-            this.label37.TabIndex = 36;
-            this.label37.Text = "Negativos Ano";
-            // 
-            // tesetv
-            // 
-            this.tesetv.AutoSize = true;
-            this.tesetv.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tesetv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.tesetv.Location = new System.Drawing.Point(4, 155);
-            this.tesetv.Name = "tesetv";
-            this.tesetv.Size = new System.Drawing.Size(173, 29);
-            this.tesetv.TabIndex = 37;
-            this.tesetv.Text = "Resultado Ano $";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.lblAnoReal);
-            this.groupBox1.Controls.Add(this.lblReal);
-            this.groupBox1.Controls.Add(this.tesetv);
-            this.groupBox1.Controls.Add(this.yearPrev);
-            this.groupBox1.Controls.Add(this.label37);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.lblDolar);
-            this.groupBox1.Controls.Add(this.negPrev);
-            this.groupBox1.Controls.Add(this.label43);
-            this.groupBox1.Controls.Add(this.posPrev);
-            this.groupBox1.Controls.Add(this.label41);
-            this.groupBox1.Controls.Add(this.pictureBox21);
-            this.groupBox1.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.groupBox1.Location = new System.Drawing.Point(778, 13);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(204, 389);
-            this.groupBox1.TabIndex = 39;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Resumo Financeiro";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(4, 209);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(186, 29);
-            this.label3.TabIndex = 46;
-            this.label3.Text = "Resultado Ano R$";
-            // 
-            // lblAnoReal
-            // 
-            this.lblAnoReal.AutoSize = true;
-            this.lblAnoReal.BackColor = System.Drawing.Color.Transparent;
-            this.lblAnoReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnoReal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblAnoReal.Location = new System.Drawing.Point(40, 238);
-            this.lblAnoReal.Name = "lblAnoReal";
-            this.lblAnoReal.Size = new System.Drawing.Size(110, 25);
-            this.lblAnoReal.TabIndex = 48;
-            this.lblAnoReal.Text = "000.000,00";
-            this.lblAnoReal.TextChanged += new System.EventHandler(this.LabelMask);
-            // 
-            // lblReal
-            // 
-            this.lblReal.AutoSize = true;
-            this.lblReal.BackColor = System.Drawing.Color.Transparent;
-            this.lblReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblReal.Location = new System.Drawing.Point(12, 238);
-            this.lblReal.Name = "lblReal";
-            this.lblReal.Size = new System.Drawing.Size(36, 25);
-            this.lblReal.TabIndex = 47;
-            this.lblReal.Text = "R$";
-            // 
-            // yearPrev
-            // 
-            this.yearPrev.AutoSize = true;
-            this.yearPrev.BackColor = System.Drawing.Color.Transparent;
-            this.yearPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yearPrev.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.yearPrev.Location = new System.Drawing.Point(40, 183);
-            this.yearPrev.Name = "yearPrev";
-            this.yearPrev.Size = new System.Drawing.Size(110, 25);
-            this.yearPrev.TabIndex = 45;
-            this.yearPrev.Text = "000.000,00";
-            this.yearPrev.TextChanged += new System.EventHandler(this.LabelMask);
-            // 
-            // lblDolar
-            // 
-            this.lblDolar.AutoSize = true;
-            this.lblDolar.BackColor = System.Drawing.Color.Transparent;
-            this.lblDolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDolar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDolar.Location = new System.Drawing.Point(25, 183);
-            this.lblDolar.Name = "lblDolar";
-            this.lblDolar.Size = new System.Drawing.Size(23, 25);
-            this.lblDolar.TabIndex = 44;
-            this.lblDolar.Text = "$";
-            // 
-            // negPrev
-            // 
-            this.negPrev.AutoSize = true;
-            this.negPrev.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.negPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.negPrev.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.negPrev.Location = new System.Drawing.Point(40, 122);
-            this.negPrev.Name = "negPrev";
-            this.negPrev.Size = new System.Drawing.Size(110, 25);
-            this.negPrev.TabIndex = 43;
-            this.negPrev.Text = "000.000,00";
-            this.negPrev.TextChanged += new System.EventHandler(this.LabelMask);
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label43.Location = new System.Drawing.Point(25, 122);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(23, 25);
-            this.label43.TabIndex = 42;
-            this.label43.Text = "$";
-            // 
-            // posPrev
-            // 
-            this.posPrev.AutoSize = true;
-            this.posPrev.BackColor = System.Drawing.Color.Lime;
-            this.posPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.posPrev.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.posPrev.Location = new System.Drawing.Point(40, 60);
-            this.posPrev.Name = "posPrev";
-            this.posPrev.Size = new System.Drawing.Size(110, 25);
-            this.posPrev.TabIndex = 41;
-            this.posPrev.Text = "000.000,00";
-            this.posPrev.TextChanged += new System.EventHandler(this.LabelMask);
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.BackColor = System.Drawing.Color.Lime;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label41.Location = new System.Drawing.Point(25, 60);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(23, 25);
-            this.label41.TabIndex = 40;
-            this.label41.Text = "$";
-            // 
-            // fileLoad
-            // 
-            this.fileLoad.FileName = "openFileDialog1";
-            // 
-            // printDialog1
-            // 
-            this.printDialog1.UseEXDialog = true;
-            // 
             // tabCurrency
             // 
             this.tabCurrency.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabCurrency.BackgroundImage")));
-            this.tabCurrency.Controls.Add(this.textBox1);
+            this.tabCurrency.Controls.Add(this.txtMoneySaved);
             this.tabCurrency.Controls.Add(this.label154);
             this.tabCurrency.Controls.Add(this.label11);
             this.tabCurrency.Controls.Add(this.pictureBox6);
@@ -739,21 +535,21 @@
             this.tabCurrency.TabIndex = 2;
             this.tabCurrency.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtMoneySaved
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(143, 161);
-            this.textBox1.MaxLength = 14;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox1.Size = new System.Drawing.Size(145, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Tag = "1";
-            this.textBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox1.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox1.Leave += new System.EventHandler(this.LeaveBox);
+            this.txtMoneySaved.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtMoneySaved.Location = new System.Drawing.Point(143, 161);
+            this.txtMoneySaved.MaxLength = 14;
+            this.txtMoneySaved.Name = "txtMoneySaved";
+            this.txtMoneySaved.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtMoneySaved.Size = new System.Drawing.Size(145, 20);
+            this.txtMoneySaved.TabIndex = 2;
+            this.txtMoneySaved.Tag = "1";
+            this.txtMoneySaved.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.txtMoneySaved.Enter += new System.EventHandler(this.OnEnter);
+            this.txtMoneySaved.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.txtMoneySaved.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.txtMoneySaved.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label154
             // 
@@ -860,15 +656,15 @@
             // 
             this.tabHouse.BackColor = System.Drawing.Color.Transparent;
             this.tabHouse.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
-            this.tabHouse.Controls.Add(this.txtB99);
-            this.tabHouse.Controls.Add(this.txtB88);
-            this.tabHouse.Controls.Add(this.txtB77);
-            this.tabHouse.Controls.Add(this.txtB66);
-            this.tabHouse.Controls.Add(this.txtB55);
-            this.tabHouse.Controls.Add(this.txtB44);
-            this.tabHouse.Controls.Add(this.txtB33);
-            this.tabHouse.Controls.Add(this.txtB22);
-            this.tabHouse.Controls.Add(this.txtB11);
+            this.tabHouse.Controls.Add(this.tab1f10s);
+            this.tabHouse.Controls.Add(this.tab1f9s);
+            this.tabHouse.Controls.Add(this.tab1f8s);
+            this.tabHouse.Controls.Add(this.tab1f7s);
+            this.tabHouse.Controls.Add(this.tab1f6s);
+            this.tabHouse.Controls.Add(this.tab1f5s);
+            this.tabHouse.Controls.Add(this.tab1f4s);
+            this.tabHouse.Controls.Add(this.tab1f3s);
+            this.tabHouse.Controls.Add(this.tab1f1s);
             this.tabHouse.Controls.Add(this.pictureBox31);
             this.tabHouse.Controls.Add(this.pictureBox30);
             this.tabHouse.Controls.Add(this.pictureBox29);
@@ -880,38 +676,38 @@
             this.tabHouse.Controls.Add(this.pictureBox14);
             this.tabHouse.Controls.Add(this.pictureBox13);
             this.tabHouse.Controls.Add(this.label33);
-            this.tabHouse.Controls.Add(this.textBox15);
+            this.tabHouse.Controls.Add(this.tab1f11);
             this.tabHouse.Controls.Add(this.label34);
             this.tabHouse.Controls.Add(this.label35);
-            this.tabHouse.Controls.Add(this.txtB9);
+            this.tabHouse.Controls.Add(this.tab1f10);
             this.tabHouse.Controls.Add(this.label36);
             this.tabHouse.Controls.Add(this.label25);
-            this.tabHouse.Controls.Add(this.txtB8);
+            this.tabHouse.Controls.Add(this.tab1f9);
             this.tabHouse.Controls.Add(this.label26);
             this.tabHouse.Controls.Add(this.label29);
-            this.tabHouse.Controls.Add(this.txtB7);
+            this.tabHouse.Controls.Add(this.tab1f8);
             this.tabHouse.Controls.Add(this.label30);
             this.tabHouse.Controls.Add(this.label31);
-            this.tabHouse.Controls.Add(this.txtB6);
+            this.tabHouse.Controls.Add(this.tab1f7);
             this.tabHouse.Controls.Add(this.label32);
             this.tabHouse.Controls.Add(this.label19);
-            this.tabHouse.Controls.Add(this.txtB5);
+            this.tabHouse.Controls.Add(this.tab1f6);
             this.tabHouse.Controls.Add(this.label20);
             this.tabHouse.Controls.Add(this.label21);
-            this.tabHouse.Controls.Add(this.txtB4);
+            this.tabHouse.Controls.Add(this.tab1f5);
             this.tabHouse.Controls.Add(this.label22);
             this.tabHouse.Controls.Add(this.label17);
-            this.tabHouse.Controls.Add(this.txtB3);
+            this.tabHouse.Controls.Add(this.tab1f4);
             this.tabHouse.Controls.Add(this.label18);
             this.tabHouse.Controls.Add(this.label15);
-            this.tabHouse.Controls.Add(this.txtB2);
+            this.tabHouse.Controls.Add(this.tab1f3);
             this.tabHouse.Controls.Add(this.label16);
             this.tabHouse.Controls.Add(this.pictureBox11);
             this.tabHouse.Controls.Add(this.label14);
-            this.tabHouse.Controls.Add(this.txtBoxMobilia);
+            this.tabHouse.Controls.Add(this.tab1f2);
             this.tabHouse.Controls.Add(this.pictureBox10);
             this.tabHouse.Controls.Add(this.label13);
-            this.tabHouse.Controls.Add(this.txtB1);
+            this.tabHouse.Controls.Add(this.tab1f1);
             this.tabHouse.Controls.Add(this.label10);
             this.tabHouse.Controls.Add(this.label9);
             this.tabHouse.ImageIndex = 3;
@@ -921,131 +717,131 @@
             this.tabHouse.Size = new System.Drawing.Size(752, 339);
             this.tabHouse.TabIndex = 5;
             // 
-            // txtB99
+            // tab1f10s
             // 
-            this.txtB99.Location = new System.Drawing.Point(297, 226);
-            this.txtB99.MaxLength = 2;
-            this.txtB99.Name = "txtB99";
-            this.txtB99.Size = new System.Drawing.Size(25, 20);
-            this.txtB99.TabIndex = 107;
-            this.txtB99.Tag = "10";
-            this.txtB99.Text = "12";
-            this.txtB99.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB99.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB99.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB99.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f10s.Location = new System.Drawing.Point(297, 226);
+            this.tab1f10s.MaxLength = 2;
+            this.tab1f10s.Name = "tab1f10s";
+            this.tab1f10s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f10s.TabIndex = 107;
+            this.tab1f10s.Tag = "";
+            this.tab1f10s.Text = "12";
+            this.tab1f10s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f10s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f10s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f10s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtB88
+            // tab1f9s
             // 
-            this.txtB88.Location = new System.Drawing.Point(250, 202);
-            this.txtB88.MaxLength = 2;
-            this.txtB88.Name = "txtB88";
-            this.txtB88.Size = new System.Drawing.Size(25, 20);
-            this.txtB88.TabIndex = 105;
-            this.txtB88.Tag = "10";
-            this.txtB88.Text = "12";
-            this.txtB88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB88.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB88.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB88.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f9s.Location = new System.Drawing.Point(250, 202);
+            this.tab1f9s.MaxLength = 2;
+            this.tab1f9s.Name = "tab1f9s";
+            this.tab1f9s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f9s.TabIndex = 105;
+            this.tab1f9s.Tag = "";
+            this.tab1f9s.Text = "12";
+            this.tab1f9s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f9s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f9s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f9s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtB77
+            // tab1f8s
             // 
-            this.txtB77.Location = new System.Drawing.Point(235, 178);
-            this.txtB77.MaxLength = 2;
-            this.txtB77.Name = "txtB77";
-            this.txtB77.Size = new System.Drawing.Size(25, 20);
-            this.txtB77.TabIndex = 103;
-            this.txtB77.Tag = "10";
-            this.txtB77.Text = "12";
-            this.txtB77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB77.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB77.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB77.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f8s.Location = new System.Drawing.Point(235, 178);
+            this.tab1f8s.MaxLength = 2;
+            this.tab1f8s.Name = "tab1f8s";
+            this.tab1f8s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f8s.TabIndex = 103;
+            this.tab1f8s.Tag = "";
+            this.tab1f8s.Text = "12";
+            this.tab1f8s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f8s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f8s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f8s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtB66
+            // tab1f7s
             // 
-            this.txtB66.Location = new System.Drawing.Point(190, 154);
-            this.txtB66.MaxLength = 2;
-            this.txtB66.Name = "txtB66";
-            this.txtB66.Size = new System.Drawing.Size(25, 20);
-            this.txtB66.TabIndex = 101;
-            this.txtB66.Tag = "10";
-            this.txtB66.Text = "12";
-            this.txtB66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB66.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB66.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB66.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f7s.Location = new System.Drawing.Point(190, 154);
+            this.tab1f7s.MaxLength = 2;
+            this.tab1f7s.Name = "tab1f7s";
+            this.tab1f7s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f7s.TabIndex = 101;
+            this.tab1f7s.Tag = "";
+            this.tab1f7s.Text = "12";
+            this.tab1f7s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f7s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f7s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f7s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtB55
+            // tab1f6s
             // 
-            this.txtB55.Location = new System.Drawing.Point(261, 130);
-            this.txtB55.MaxLength = 2;
-            this.txtB55.Name = "txtB55";
-            this.txtB55.Size = new System.Drawing.Size(25, 20);
-            this.txtB55.TabIndex = 99;
-            this.txtB55.Tag = "10";
-            this.txtB55.Text = "12";
-            this.txtB55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB55.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB55.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB55.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f6s.Location = new System.Drawing.Point(261, 130);
+            this.tab1f6s.MaxLength = 2;
+            this.tab1f6s.Name = "tab1f6s";
+            this.tab1f6s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f6s.TabIndex = 99;
+            this.tab1f6s.Tag = "";
+            this.tab1f6s.Text = "12";
+            this.tab1f6s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f6s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f6s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f6s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtB44
+            // tab1f5s
             // 
-            this.txtB44.Location = new System.Drawing.Point(206, 106);
-            this.txtB44.MaxLength = 2;
-            this.txtB44.Name = "txtB44";
-            this.txtB44.Size = new System.Drawing.Size(25, 20);
-            this.txtB44.TabIndex = 97;
-            this.txtB44.Tag = "10";
-            this.txtB44.Text = "12";
-            this.txtB44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB44.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB44.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB44.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f5s.Location = new System.Drawing.Point(206, 106);
+            this.tab1f5s.MaxLength = 2;
+            this.tab1f5s.Name = "tab1f5s";
+            this.tab1f5s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f5s.TabIndex = 97;
+            this.tab1f5s.Tag = "";
+            this.tab1f5s.Text = "12";
+            this.tab1f5s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f5s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f5s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f5s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtB33
+            // tab1f4s
             // 
-            this.txtB33.Location = new System.Drawing.Point(194, 82);
-            this.txtB33.MaxLength = 2;
-            this.txtB33.Name = "txtB33";
-            this.txtB33.Size = new System.Drawing.Size(25, 20);
-            this.txtB33.TabIndex = 95;
-            this.txtB33.Tag = "10";
-            this.txtB33.Text = "12";
-            this.txtB33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB33.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB33.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB33.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f4s.Location = new System.Drawing.Point(194, 82);
+            this.tab1f4s.MaxLength = 2;
+            this.tab1f4s.Name = "tab1f4s";
+            this.tab1f4s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f4s.TabIndex = 95;
+            this.tab1f4s.Tag = "";
+            this.tab1f4s.Text = "12";
+            this.tab1f4s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f4s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f4s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f4s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtB22
+            // tab1f3s
             // 
-            this.txtB22.Location = new System.Drawing.Point(306, 58);
-            this.txtB22.MaxLength = 2;
-            this.txtB22.Name = "txtB22";
-            this.txtB22.Size = new System.Drawing.Size(25, 20);
-            this.txtB22.TabIndex = 93;
-            this.txtB22.Tag = "10";
-            this.txtB22.Text = "12";
-            this.txtB22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB22.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB22.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f3s.Location = new System.Drawing.Point(306, 58);
+            this.tab1f3s.MaxLength = 2;
+            this.tab1f3s.Name = "tab1f3s";
+            this.tab1f3s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f3s.TabIndex = 93;
+            this.tab1f3s.Tag = "";
+            this.tab1f3s.Text = "12";
+            this.tab1f3s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f3s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f3s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f3s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtB11
+            // tab1f1s
             // 
-            this.txtB11.Location = new System.Drawing.Point(369, 11);
-            this.txtB11.MaxLength = 2;
-            this.txtB11.Name = "txtB11";
-            this.txtB11.Size = new System.Drawing.Size(25, 20);
-            this.txtB11.TabIndex = 89;
-            this.txtB11.Tag = "10";
-            this.txtB11.Text = "12";
-            this.txtB11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtB11.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB11.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f1s.Location = new System.Drawing.Point(369, 11);
+            this.tab1f1s.MaxLength = 2;
+            this.tab1f1s.Name = "tab1f1s";
+            this.tab1f1s.Size = new System.Drawing.Size(25, 20);
+            this.tab1f1s.TabIndex = 89;
+            this.tab1f1s.Tag = "";
+            this.tab1f1s.Text = "12";
+            this.tab1f1s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab1f1s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f1s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f1s.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // pictureBox31
             // 
@@ -1199,20 +995,20 @@
             this.label33.TabIndex = 63;
             this.label33.Text = "Hotel/AirBnB total";
             // 
-            // textBox15
+            // tab1f11
             // 
-            this.textBox15.Location = new System.Drawing.Point(35, 249);
-            this.textBox15.MaxLength = 14;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox15.Size = new System.Drawing.Size(121, 20);
-            this.textBox15.TabIndex = 62;
-            this.textBox15.Tag = "4";
-            this.textBox15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox15.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox15.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox15.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f11.Location = new System.Drawing.Point(35, 249);
+            this.tab1f11.MaxLength = 14;
+            this.tab1f11.Name = "tab1f11";
+            this.tab1f11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f11.Size = new System.Drawing.Size(121, 20);
+            this.tab1f11.TabIndex = 62;
+            this.tab1f11.Tag = "4";
+            this.tab1f11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f11.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f11.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f11.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label34
             // 
@@ -1236,20 +1032,20 @@
             this.label35.TabIndex = 60;
             this.label35.Text = "Netflix / Outros    meses";
             // 
-            // txtB9
+            // tab1f10
             // 
-            this.txtB9.Location = new System.Drawing.Point(35, 225);
-            this.txtB9.MaxLength = 14;
-            this.txtB9.Name = "txtB9";
-            this.txtB9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB9.Size = new System.Drawing.Size(121, 20);
-            this.txtB9.TabIndex = 59;
-            this.txtB9.Tag = "9";
-            this.txtB9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB9.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB9.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB9.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f10.Location = new System.Drawing.Point(35, 225);
+            this.tab1f10.MaxLength = 14;
+            this.tab1f10.Name = "tab1f10";
+            this.tab1f10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f10.Size = new System.Drawing.Size(121, 20);
+            this.tab1f10.TabIndex = 59;
+            this.tab1f10.Tag = "4";
+            this.tab1f10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f10.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f10.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f10.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label36
             // 
@@ -1273,20 +1069,20 @@
             this.label25.TabIndex = 57;
             this.label25.Text = "Lavanderia    meses";
             // 
-            // txtB8
+            // tab1f9
             // 
-            this.txtB8.Location = new System.Drawing.Point(35, 201);
-            this.txtB8.MaxLength = 14;
-            this.txtB8.Name = "txtB8";
-            this.txtB8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB8.Size = new System.Drawing.Size(121, 20);
-            this.txtB8.TabIndex = 56;
-            this.txtB8.Tag = "9";
-            this.txtB8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB8.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB8.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB8.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f9.Location = new System.Drawing.Point(35, 201);
+            this.tab1f9.MaxLength = 14;
+            this.tab1f9.Name = "tab1f9";
+            this.tab1f9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f9.Size = new System.Drawing.Size(121, 20);
+            this.tab1f9.TabIndex = 56;
+            this.tab1f9.Tag = "4";
+            this.tab1f9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f9.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f9.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f9.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label26
             // 
@@ -1310,20 +1106,20 @@
             this.label29.TabIndex = 51;
             this.label29.Text = "Internet    meses";
             // 
-            // txtB7
+            // tab1f8
             // 
-            this.txtB7.Location = new System.Drawing.Point(35, 177);
-            this.txtB7.MaxLength = 14;
-            this.txtB7.Name = "txtB7";
-            this.txtB7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB7.Size = new System.Drawing.Size(121, 20);
-            this.txtB7.TabIndex = 50;
-            this.txtB7.Tag = "9";
-            this.txtB7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB7.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB7.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f8.Location = new System.Drawing.Point(35, 177);
+            this.tab1f8.MaxLength = 14;
+            this.tab1f8.Name = "tab1f8";
+            this.tab1f8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f8.Size = new System.Drawing.Size(121, 20);
+            this.tab1f8.TabIndex = 50;
+            this.tab1f8.Tag = "4";
+            this.tab1f8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f8.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f8.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f8.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label30
             // 
@@ -1347,20 +1143,20 @@
             this.label31.TabIndex = 48;
             this.label31.Text = "TV    meses";
             // 
-            // txtB6
+            // tab1f7
             // 
-            this.txtB6.Location = new System.Drawing.Point(35, 153);
-            this.txtB6.MaxLength = 14;
-            this.txtB6.Name = "txtB6";
-            this.txtB6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB6.Size = new System.Drawing.Size(121, 20);
-            this.txtB6.TabIndex = 47;
-            this.txtB6.Tag = "9";
-            this.txtB6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB6.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB6.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f7.Location = new System.Drawing.Point(35, 153);
+            this.tab1f7.MaxLength = 14;
+            this.tab1f7.Name = "tab1f7";
+            this.tab1f7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f7.Size = new System.Drawing.Size(121, 20);
+            this.tab1f7.TabIndex = 47;
+            this.tab1f7.Tag = "4";
+            this.tab1f7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f7.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f7.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label32
             // 
@@ -1384,20 +1180,20 @@
             this.label19.TabIndex = 42;
             this.label19.Text = "Aquecimento    meses";
             // 
-            // txtB5
+            // tab1f6
             // 
-            this.txtB5.Location = new System.Drawing.Point(35, 129);
-            this.txtB5.MaxLength = 14;
-            this.txtB5.Name = "txtB5";
-            this.txtB5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB5.Size = new System.Drawing.Size(121, 20);
-            this.txtB5.TabIndex = 41;
-            this.txtB5.Tag = "9";
-            this.txtB5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB5.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB5.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f6.Location = new System.Drawing.Point(35, 129);
+            this.tab1f6.MaxLength = 14;
+            this.tab1f6.Name = "tab1f6";
+            this.tab1f6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f6.Size = new System.Drawing.Size(121, 20);
+            this.tab1f6.TabIndex = 41;
+            this.tab1f6.Tag = "4";
+            this.tab1f6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f6.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f6.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label20
             // 
@@ -1421,20 +1217,20 @@
             this.label21.TabIndex = 39;
             this.label21.Text = "Água    meses";
             // 
-            // txtB4
+            // tab1f5
             // 
-            this.txtB4.Location = new System.Drawing.Point(35, 105);
-            this.txtB4.MaxLength = 14;
-            this.txtB4.Name = "txtB4";
-            this.txtB4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB4.Size = new System.Drawing.Size(121, 20);
-            this.txtB4.TabIndex = 38;
-            this.txtB4.Tag = "9";
-            this.txtB4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB4.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB4.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f5.Location = new System.Drawing.Point(35, 105);
+            this.tab1f5.MaxLength = 14;
+            this.tab1f5.Name = "tab1f5";
+            this.tab1f5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f5.Size = new System.Drawing.Size(121, 20);
+            this.tab1f5.TabIndex = 38;
+            this.tab1f5.Tag = "4";
+            this.tab1f5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f5.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f5.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label22
             // 
@@ -1458,20 +1254,20 @@
             this.label17.TabIndex = 36;
             this.label17.Text = "Luz    meses";
             // 
-            // txtB3
+            // tab1f4
             // 
-            this.txtB3.Location = new System.Drawing.Point(35, 81);
-            this.txtB3.MaxLength = 14;
-            this.txtB3.Name = "txtB3";
-            this.txtB3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB3.Size = new System.Drawing.Size(121, 20);
-            this.txtB3.TabIndex = 35;
-            this.txtB3.Tag = "9";
-            this.txtB3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB3.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB3.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f4.Location = new System.Drawing.Point(35, 81);
+            this.tab1f4.MaxLength = 14;
+            this.tab1f4.Name = "tab1f4";
+            this.tab1f4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f4.Size = new System.Drawing.Size(121, 20);
+            this.tab1f4.TabIndex = 35;
+            this.tab1f4.Tag = "4";
+            this.tab1f4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f4.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f4.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label18
             // 
@@ -1495,20 +1291,20 @@
             this.label15.TabIndex = 33;
             this.label15.Text = "Aluguel no Canadá    meses";
             // 
-            // txtB2
+            // tab1f3
             // 
-            this.txtB2.Location = new System.Drawing.Point(35, 57);
-            this.txtB2.MaxLength = 14;
-            this.txtB2.Name = "txtB2";
-            this.txtB2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB2.Size = new System.Drawing.Size(121, 20);
-            this.txtB2.TabIndex = 32;
-            this.txtB2.Tag = "9";
-            this.txtB2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB2.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB2.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f3.Location = new System.Drawing.Point(35, 57);
+            this.tab1f3.MaxLength = 14;
+            this.tab1f3.Name = "tab1f3";
+            this.tab1f3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f3.Size = new System.Drawing.Size(121, 20);
+            this.tab1f3.TabIndex = 32;
+            this.tab1f3.Tag = "4";
+            this.tab1f3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f3.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f3.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label16
             // 
@@ -1546,20 +1342,20 @@
             this.label14.TabIndex = 29;
             this.label14.Text = "Compra de mobilia no Canadá";
             // 
-            // txtBoxMobilia
+            // tab1f2
             // 
-            this.txtBoxMobilia.Location = new System.Drawing.Point(35, 34);
-            this.txtBoxMobilia.MaxLength = 14;
-            this.txtBoxMobilia.Name = "txtBoxMobilia";
-            this.txtBoxMobilia.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtBoxMobilia.Size = new System.Drawing.Size(121, 20);
-            this.txtBoxMobilia.TabIndex = 28;
-            this.txtBoxMobilia.Tag = "4";
-            this.txtBoxMobilia.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtBoxMobilia.Enter += new System.EventHandler(this.OnEnter);
-            this.txtBoxMobilia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtBoxMobilia.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtBoxMobilia.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f2.Location = new System.Drawing.Point(35, 34);
+            this.tab1f2.MaxLength = 14;
+            this.tab1f2.Name = "tab1f2";
+            this.tab1f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f2.Size = new System.Drawing.Size(121, 20);
+            this.tab1f2.TabIndex = 28;
+            this.tab1f2.Tag = "4";
+            this.tab1f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // pictureBox10
             // 
@@ -1583,20 +1379,20 @@
             this.label13.TabIndex = 3;
             this.label13.Text = "Moradia Alugada no Brasil    meses";
             // 
-            // txtB1
+            // tab1f1
             // 
-            this.txtB1.Location = new System.Drawing.Point(35, 11);
-            this.txtB1.MaxLength = 14;
-            this.txtB1.Name = "txtB1";
-            this.txtB1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtB1.Size = new System.Drawing.Size(121, 20);
-            this.txtB1.TabIndex = 2;
-            this.txtB1.Tag = "6";
-            this.txtB1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtB1.Enter += new System.EventHandler(this.OnEnter);
-            this.txtB1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtB1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtB1.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab1f1.Location = new System.Drawing.Point(35, 11);
+            this.tab1f1.MaxLength = 14;
+            this.tab1f1.Name = "tab1f1";
+            this.tab1f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab1f1.Size = new System.Drawing.Size(121, 20);
+            this.tab1f1.TabIndex = 2;
+            this.tab1f1.Tag = "1";
+            this.tab1f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab1f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab1f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab1f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab1f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label10
             // 
@@ -1623,50 +1419,50 @@
             // tabRelax
             // 
             this.tabRelax.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
-            this.tabRelax.Controls.Add(this.txtC77);
-            this.tabRelax.Controls.Add(this.txtC88);
-            this.tabRelax.Controls.Add(this.txtC99);
-            this.tabRelax.Controls.Add(this.txtC33);
-            this.tabRelax.Controls.Add(this.txtC44);
-            this.tabRelax.Controls.Add(this.txtC55);
-            this.tabRelax.Controls.Add(this.txtC66);
-            this.tabRelax.Controls.Add(this.txtC22);
-            this.tabRelax.Controls.Add(this.txtC11);
+            this.tabRelax.Controls.Add(this.tab2f7s);
+            this.tabRelax.Controls.Add(this.tab2f8s);
+            this.tabRelax.Controls.Add(this.tab2f9s);
+            this.tabRelax.Controls.Add(this.tab2f3s);
+            this.tabRelax.Controls.Add(this.tab2f4s);
+            this.tabRelax.Controls.Add(this.tab2f5s);
+            this.tabRelax.Controls.Add(this.tab2f6s);
+            this.tabRelax.Controls.Add(this.tab2f2s);
+            this.tabRelax.Controls.Add(this.tab2f1s);
             this.tabRelax.Controls.Add(this.pictureBox71);
             this.tabRelax.Controls.Add(this.label121);
-            this.tabRelax.Controls.Add(this.txtC9);
+            this.tabRelax.Controls.Add(this.tab2f9);
             this.tabRelax.Controls.Add(this.label122);
             this.tabRelax.Controls.Add(this.pictureBox64);
             this.tabRelax.Controls.Add(this.label107);
-            this.tabRelax.Controls.Add(this.txtC8);
+            this.tabRelax.Controls.Add(this.tab2f8);
             this.tabRelax.Controls.Add(this.label108);
             this.tabRelax.Controls.Add(this.pictureBox65);
             this.tabRelax.Controls.Add(this.label109);
-            this.tabRelax.Controls.Add(this.txtC7);
+            this.tabRelax.Controls.Add(this.tab2f7);
             this.tabRelax.Controls.Add(this.label110);
             this.tabRelax.Controls.Add(this.pictureBox35);
             this.tabRelax.Controls.Add(this.label53);
-            this.tabRelax.Controls.Add(this.txtC6);
+            this.tabRelax.Controls.Add(this.tab2f6);
             this.tabRelax.Controls.Add(this.label54);
             this.tabRelax.Controls.Add(this.pictureBox34);
             this.tabRelax.Controls.Add(this.label51);
-            this.tabRelax.Controls.Add(this.txtC5);
+            this.tabRelax.Controls.Add(this.tab2f5);
             this.tabRelax.Controls.Add(this.label52);
             this.tabRelax.Controls.Add(this.pictureBox33);
             this.tabRelax.Controls.Add(this.label49);
-            this.tabRelax.Controls.Add(this.txtC4);
+            this.tabRelax.Controls.Add(this.tab2f4);
             this.tabRelax.Controls.Add(this.label50);
             this.tabRelax.Controls.Add(this.pictureBox25);
             this.tabRelax.Controls.Add(this.label27);
-            this.tabRelax.Controls.Add(this.txtC3);
+            this.tabRelax.Controls.Add(this.tab2f3);
             this.tabRelax.Controls.Add(this.label28);
             this.tabRelax.Controls.Add(this.pictureBox8);
             this.tabRelax.Controls.Add(this.label23);
-            this.tabRelax.Controls.Add(this.txtC2);
+            this.tabRelax.Controls.Add(this.tab2f2);
             this.tabRelax.Controls.Add(this.label24);
             this.tabRelax.Controls.Add(this.pictureBox7);
             this.tabRelax.Controls.Add(this.label40);
-            this.tabRelax.Controls.Add(this.txtC1);
+            this.tabRelax.Controls.Add(this.tab2f1);
             this.tabRelax.Controls.Add(this.label42);
             this.tabRelax.ImageIndex = 4;
             this.tabRelax.Location = new System.Drawing.Point(4, 47);
@@ -1676,131 +1472,131 @@
             this.tabRelax.TabIndex = 11;
             this.tabRelax.UseVisualStyleBackColor = true;
             // 
-            // txtC77
+            // tab2f7s
             // 
-            this.txtC77.Location = new System.Drawing.Point(278, 192);
-            this.txtC77.MaxLength = 2;
-            this.txtC77.Name = "txtC77";
-            this.txtC77.Size = new System.Drawing.Size(25, 20);
-            this.txtC77.TabIndex = 126;
-            this.txtC77.Tag = "10";
-            this.txtC77.Text = "12";
-            this.txtC77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC77.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC77.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC77.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f7s.Location = new System.Drawing.Point(278, 192);
+            this.tab2f7s.MaxLength = 2;
+            this.tab2f7s.Name = "tab2f7s";
+            this.tab2f7s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f7s.TabIndex = 126;
+            this.tab2f7s.Tag = "";
+            this.tab2f7s.Text = "12";
+            this.tab2f7s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f7s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f7s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f7s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtC88
+            // tab2f8s
             // 
-            this.txtC88.Location = new System.Drawing.Point(290, 223);
-            this.txtC88.MaxLength = 2;
-            this.txtC88.Name = "txtC88";
-            this.txtC88.Size = new System.Drawing.Size(25, 20);
-            this.txtC88.TabIndex = 125;
-            this.txtC88.Tag = "10";
-            this.txtC88.Text = "12";
-            this.txtC88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC88.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC88.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC88.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f8s.Location = new System.Drawing.Point(290, 223);
+            this.tab2f8s.MaxLength = 2;
+            this.tab2f8s.Name = "tab2f8s";
+            this.tab2f8s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f8s.TabIndex = 125;
+            this.tab2f8s.Tag = "";
+            this.tab2f8s.Text = "12";
+            this.tab2f8s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f8s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f8s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f8s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtC99
+            // tab2f9s
             // 
-            this.txtC99.Location = new System.Drawing.Point(278, 253);
-            this.txtC99.MaxLength = 2;
-            this.txtC99.Name = "txtC99";
-            this.txtC99.Size = new System.Drawing.Size(25, 20);
-            this.txtC99.TabIndex = 124;
-            this.txtC99.Tag = "10";
-            this.txtC99.Text = "12";
-            this.txtC99.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC99.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC99.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC99.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f9s.Location = new System.Drawing.Point(278, 253);
+            this.tab2f9s.MaxLength = 2;
+            this.tab2f9s.Name = "tab2f9s";
+            this.tab2f9s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f9s.TabIndex = 124;
+            this.tab2f9s.Tag = "";
+            this.tab2f9s.Text = "12";
+            this.tab2f9s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f9s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f9s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f9s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtC33
+            // tab2f3s
             // 
-            this.txtC33.Location = new System.Drawing.Point(226, 72);
-            this.txtC33.MaxLength = 2;
-            this.txtC33.Name = "txtC33";
-            this.txtC33.Size = new System.Drawing.Size(25, 20);
-            this.txtC33.TabIndex = 123;
-            this.txtC33.Tag = "10";
-            this.txtC33.Text = "12";
-            this.txtC33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC33.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC33.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC33.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f3s.Location = new System.Drawing.Point(226, 72);
+            this.tab2f3s.MaxLength = 2;
+            this.tab2f3s.Name = "tab2f3s";
+            this.tab2f3s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f3s.TabIndex = 123;
+            this.tab2f3s.Tag = "";
+            this.tab2f3s.Text = "12";
+            this.tab2f3s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f3s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f3s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f3s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtC44
+            // tab2f4s
             // 
-            this.txtC44.Location = new System.Drawing.Point(322, 102);
-            this.txtC44.MaxLength = 2;
-            this.txtC44.Name = "txtC44";
-            this.txtC44.Size = new System.Drawing.Size(25, 20);
-            this.txtC44.TabIndex = 122;
-            this.txtC44.Tag = "10";
-            this.txtC44.Text = "12";
-            this.txtC44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC44.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC44.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC44.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f4s.Location = new System.Drawing.Point(322, 102);
+            this.tab2f4s.MaxLength = 2;
+            this.tab2f4s.Name = "tab2f4s";
+            this.tab2f4s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f4s.TabIndex = 122;
+            this.tab2f4s.Tag = "";
+            this.tab2f4s.Text = "12";
+            this.tab2f4s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f4s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f4s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f4s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtC55
+            // tab2f5s
             // 
-            this.txtC55.Location = new System.Drawing.Point(245, 130);
-            this.txtC55.MaxLength = 2;
-            this.txtC55.Name = "txtC55";
-            this.txtC55.Size = new System.Drawing.Size(25, 20);
-            this.txtC55.TabIndex = 121;
-            this.txtC55.Tag = "10";
-            this.txtC55.Text = "12";
-            this.txtC55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC55.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC55.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC55.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f5s.Location = new System.Drawing.Point(245, 130);
+            this.tab2f5s.MaxLength = 2;
+            this.tab2f5s.Name = "tab2f5s";
+            this.tab2f5s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f5s.TabIndex = 121;
+            this.tab2f5s.Tag = "";
+            this.tab2f5s.Text = "12";
+            this.tab2f5s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f5s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f5s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f5s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtC66
+            // tab2f6s
             // 
-            this.txtC66.Location = new System.Drawing.Point(301, 161);
-            this.txtC66.MaxLength = 2;
-            this.txtC66.Name = "txtC66";
-            this.txtC66.Size = new System.Drawing.Size(25, 20);
-            this.txtC66.TabIndex = 120;
-            this.txtC66.Tag = "10";
-            this.txtC66.Text = "12";
-            this.txtC66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC66.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC66.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC66.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f6s.Location = new System.Drawing.Point(301, 161);
+            this.tab2f6s.MaxLength = 2;
+            this.tab2f6s.Name = "tab2f6s";
+            this.tab2f6s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f6s.TabIndex = 120;
+            this.tab2f6s.Tag = "";
+            this.tab2f6s.Text = "12";
+            this.tab2f6s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f6s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f6s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f6s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtC22
+            // tab2f2s
             // 
-            this.txtC22.Location = new System.Drawing.Point(215, 43);
-            this.txtC22.MaxLength = 2;
-            this.txtC22.Name = "txtC22";
-            this.txtC22.Size = new System.Drawing.Size(25, 20);
-            this.txtC22.TabIndex = 119;
-            this.txtC22.Tag = "10";
-            this.txtC22.Text = "12";
-            this.txtC22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC22.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC22.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f2s.Location = new System.Drawing.Point(215, 43);
+            this.tab2f2s.MaxLength = 2;
+            this.tab2f2s.Name = "tab2f2s";
+            this.tab2f2s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f2s.TabIndex = 119;
+            this.tab2f2s.Tag = "";
+            this.tab2f2s.Text = "12";
+            this.tab2f2s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f2s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f2s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f2s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtC11
+            // tab2f1s
             // 
-            this.txtC11.Location = new System.Drawing.Point(235, 14);
-            this.txtC11.MaxLength = 2;
-            this.txtC11.Name = "txtC11";
-            this.txtC11.Size = new System.Drawing.Size(25, 20);
-            this.txtC11.TabIndex = 118;
-            this.txtC11.Tag = "10";
-            this.txtC11.Text = "12";
-            this.txtC11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtC11.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC11.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f1s.Location = new System.Drawing.Point(235, 14);
+            this.tab2f1s.MaxLength = 2;
+            this.tab2f1s.Name = "tab2f1s";
+            this.tab2f1s.Size = new System.Drawing.Size(25, 20);
+            this.tab2f1s.TabIndex = 118;
+            this.tab2f1s.Tag = "";
+            this.tab2f1s.Text = "12";
+            this.tab2f1s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab2f1s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f1s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f1s.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // pictureBox71
             // 
@@ -1827,20 +1623,20 @@
             this.label121.TabIndex = 116;
             this.label121.Text = "Plano de Saúde    meses";
             // 
-            // txtC9
+            // tab2f9
             // 
-            this.txtC9.Location = new System.Drawing.Point(30, 252);
-            this.txtC9.MaxLength = 14;
-            this.txtC9.Name = "txtC9";
-            this.txtC9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC9.Size = new System.Drawing.Size(121, 20);
-            this.txtC9.TabIndex = 115;
-            this.txtC9.Tag = "9";
-            this.txtC9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC9.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC9.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC9.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f9.Location = new System.Drawing.Point(30, 252);
+            this.tab2f9.MaxLength = 14;
+            this.tab2f9.Name = "tab2f9";
+            this.tab2f9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f9.Size = new System.Drawing.Size(121, 20);
+            this.tab2f9.TabIndex = 115;
+            this.tab2f9.Tag = "4";
+            this.tab2f9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f9.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f9.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f9.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label122
             // 
@@ -1878,20 +1674,20 @@
             this.label107.TabIndex = 112;
             this.label107.Text = "Banco no Canadá    meses";
             // 
-            // txtC8
+            // tab2f8
             // 
-            this.txtC8.Location = new System.Drawing.Point(30, 222);
-            this.txtC8.MaxLength = 14;
-            this.txtC8.Name = "txtC8";
-            this.txtC8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC8.Size = new System.Drawing.Size(121, 20);
-            this.txtC8.TabIndex = 111;
-            this.txtC8.Tag = "9";
-            this.txtC8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC8.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC8.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC8.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f8.Location = new System.Drawing.Point(30, 222);
+            this.tab2f8.MaxLength = 14;
+            this.tab2f8.Name = "tab2f8";
+            this.tab2f8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f8.Size = new System.Drawing.Size(121, 20);
+            this.tab2f8.TabIndex = 111;
+            this.tab2f8.Tag = "4";
+            this.tab2f8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f8.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f8.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f8.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label108
             // 
@@ -1930,20 +1726,20 @@
             this.label109.TabIndex = 108;
             this.label109.Text = "Banco no Brasil    meses";
             // 
-            // txtC7
+            // tab2f7
             // 
-            this.txtC7.Location = new System.Drawing.Point(30, 191);
-            this.txtC7.MaxLength = 14;
-            this.txtC7.Name = "txtC7";
-            this.txtC7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC7.Size = new System.Drawing.Size(121, 20);
-            this.txtC7.TabIndex = 107;
-            this.txtC7.Tag = "9";
-            this.txtC7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC7.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC7.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f7.Location = new System.Drawing.Point(30, 191);
+            this.tab2f7.MaxLength = 14;
+            this.tab2f7.Name = "tab2f7";
+            this.tab2f7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f7.Size = new System.Drawing.Size(121, 20);
+            this.tab2f7.TabIndex = 107;
+            this.tab2f7.Tag = "4";
+            this.tab2f7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f7.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f7.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label110
             // 
@@ -1980,20 +1776,20 @@
             this.label53.TabIndex = 104;
             this.label53.Text = "Salão / Barbearia    meses";
             // 
-            // txtC6
+            // tab2f6
             // 
-            this.txtC6.Location = new System.Drawing.Point(30, 160);
-            this.txtC6.MaxLength = 14;
-            this.txtC6.Name = "txtC6";
-            this.txtC6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC6.Size = new System.Drawing.Size(121, 20);
-            this.txtC6.TabIndex = 103;
-            this.txtC6.Tag = "9";
-            this.txtC6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC6.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC6.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f6.Location = new System.Drawing.Point(30, 160);
+            this.tab2f6.MaxLength = 14;
+            this.tab2f6.Name = "tab2f6";
+            this.tab2f6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f6.Size = new System.Drawing.Size(121, 20);
+            this.tab2f6.TabIndex = 103;
+            this.tab2f6.Tag = "4";
+            this.tab2f6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f6.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f6.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label54
             // 
@@ -2031,20 +1827,20 @@
             this.label51.TabIndex = 100;
             this.label51.Text = "Cosméticos    meses";
             // 
-            // txtC5
+            // tab2f5
             // 
-            this.txtC5.Location = new System.Drawing.Point(30, 129);
-            this.txtC5.MaxLength = 14;
-            this.txtC5.Name = "txtC5";
-            this.txtC5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC5.Size = new System.Drawing.Size(121, 20);
-            this.txtC5.TabIndex = 99;
-            this.txtC5.Tag = "9";
-            this.txtC5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC5.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC5.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f5.Location = new System.Drawing.Point(30, 129);
+            this.tab2f5.MaxLength = 14;
+            this.tab2f5.Name = "tab2f5";
+            this.tab2f5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f5.Size = new System.Drawing.Size(121, 20);
+            this.tab2f5.TabIndex = 99;
+            this.tab2f5.Tag = "4";
+            this.tab2f5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f5.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f5.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label52
             // 
@@ -2083,20 +1879,20 @@
             this.label49.TabIndex = 96;
             this.label49.Text = "Farmácia e remédios    meses";
             // 
-            // txtC4
+            // tab2f4
             // 
-            this.txtC4.Location = new System.Drawing.Point(30, 101);
-            this.txtC4.MaxLength = 14;
-            this.txtC4.Name = "txtC4";
-            this.txtC4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC4.Size = new System.Drawing.Size(121, 20);
-            this.txtC4.TabIndex = 95;
-            this.txtC4.Tag = "9";
-            this.txtC4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC4.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC4.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f4.Location = new System.Drawing.Point(30, 101);
+            this.tab2f4.MaxLength = 14;
+            this.tab2f4.Name = "tab2f4";
+            this.tab2f4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f4.Size = new System.Drawing.Size(121, 20);
+            this.tab2f4.TabIndex = 95;
+            this.tab2f4.Tag = "4";
+            this.tab2f4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f4.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f4.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label50
             // 
@@ -2134,20 +1930,20 @@
             this.label27.TabIndex = 92;
             this.label27.Text = "Passeios    meses";
             // 
-            // txtC3
+            // tab2f3
             // 
-            this.txtC3.Location = new System.Drawing.Point(30, 71);
-            this.txtC3.MaxLength = 14;
-            this.txtC3.Name = "txtC3";
-            this.txtC3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC3.Size = new System.Drawing.Size(121, 20);
-            this.txtC3.TabIndex = 91;
-            this.txtC3.Tag = "9";
-            this.txtC3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC3.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC3.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f3.Location = new System.Drawing.Point(30, 71);
+            this.tab2f3.MaxLength = 14;
+            this.tab2f3.Name = "tab2f3";
+            this.tab2f3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f3.Size = new System.Drawing.Size(121, 20);
+            this.tab2f3.TabIndex = 91;
+            this.tab2f3.Tag = "4";
+            this.tab2f3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f3.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f3.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label28
             // 
@@ -2185,20 +1981,20 @@
             this.label23.TabIndex = 88;
             this.label23.Text = "Celular    meses";
             // 
-            // txtC2
+            // tab2f2
             // 
-            this.txtC2.Location = new System.Drawing.Point(30, 42);
-            this.txtC2.MaxLength = 14;
-            this.txtC2.Name = "txtC2";
-            this.txtC2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC2.Size = new System.Drawing.Size(121, 20);
-            this.txtC2.TabIndex = 87;
-            this.txtC2.Tag = "9";
-            this.txtC2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC2.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC2.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f2.Location = new System.Drawing.Point(30, 42);
+            this.tab2f2.MaxLength = 14;
+            this.tab2f2.Name = "tab2f2";
+            this.tab2f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f2.Size = new System.Drawing.Size(121, 20);
+            this.tab2f2.TabIndex = 87;
+            this.tab2f2.Tag = "4";
+            this.tab2f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label24
             // 
@@ -2236,20 +2032,20 @@
             this.label40.TabIndex = 84;
             this.label40.Text = "Academia    meses";
             // 
-            // txtC1
+            // tab2f1
             // 
-            this.txtC1.Location = new System.Drawing.Point(30, 13);
-            this.txtC1.MaxLength = 14;
-            this.txtC1.Name = "txtC1";
-            this.txtC1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtC1.Size = new System.Drawing.Size(121, 20);
-            this.txtC1.TabIndex = 83;
-            this.txtC1.Tag = "9";
-            this.txtC1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtC1.Enter += new System.EventHandler(this.OnEnter);
-            this.txtC1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtC1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtC1.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab2f1.Location = new System.Drawing.Point(30, 13);
+            this.tab2f1.MaxLength = 14;
+            this.tab2f1.Name = "tab2f1";
+            this.tab2f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab2f1.Size = new System.Drawing.Size(121, 20);
+            this.tab2f1.TabIndex = 83;
+            this.tab2f1.Tag = "4";
+            this.tab2f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab2f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab2f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab2f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab2f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label42
             // 
@@ -2265,15 +2061,15 @@
             // tabFood
             // 
             this.tabFood.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
-            this.tabFood.Controls.Add(this.txtD11);
-            this.tabFood.Controls.Add(this.txtD22);
+            this.tabFood.Controls.Add(this.tab3f1s);
+            this.tabFood.Controls.Add(this.tab3f2s);
             this.tabFood.Controls.Add(this.pictureBox28);
             this.tabFood.Controls.Add(this.label44);
-            this.tabFood.Controls.Add(this.txtD2);
+            this.tabFood.Controls.Add(this.tab3f2);
             this.tabFood.Controls.Add(this.label46);
             this.tabFood.Controls.Add(this.pictureBox32);
             this.tabFood.Controls.Add(this.label47);
-            this.tabFood.Controls.Add(this.txtD1);
+            this.tabFood.Controls.Add(this.tab3f1);
             this.tabFood.Controls.Add(this.label48);
             this.tabFood.ImageIndex = 1;
             this.tabFood.Location = new System.Drawing.Point(4, 47);
@@ -2283,33 +2079,33 @@
             this.tabFood.TabIndex = 10;
             this.tabFood.UseVisualStyleBackColor = true;
             // 
-            // txtD11
+            // tab3f1s
             // 
-            this.txtD11.Location = new System.Drawing.Point(270, 14);
-            this.txtD11.MaxLength = 2;
-            this.txtD11.Name = "txtD11";
-            this.txtD11.Size = new System.Drawing.Size(25, 20);
-            this.txtD11.TabIndex = 120;
-            this.txtD11.Tag = "10";
-            this.txtD11.Text = "12";
-            this.txtD11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtD11.Enter += new System.EventHandler(this.OnEnter);
-            this.txtD11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtD11.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab3f1s.Location = new System.Drawing.Point(270, 14);
+            this.tab3f1s.MaxLength = 2;
+            this.tab3f1s.Name = "tab3f1s";
+            this.tab3f1s.Size = new System.Drawing.Size(25, 20);
+            this.tab3f1s.TabIndex = 120;
+            this.tab3f1s.Tag = "";
+            this.tab3f1s.Text = "12";
+            this.tab3f1s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab3f1s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab3f1s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab3f1s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtD22
+            // tab3f2s
             // 
-            this.txtD22.Location = new System.Drawing.Point(256, 43);
-            this.txtD22.MaxLength = 2;
-            this.txtD22.Name = "txtD22";
-            this.txtD22.Size = new System.Drawing.Size(25, 20);
-            this.txtD22.TabIndex = 119;
-            this.txtD22.Tag = "10";
-            this.txtD22.Text = "12";
-            this.txtD22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtD22.Enter += new System.EventHandler(this.OnEnter);
-            this.txtD22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtD22.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab3f2s.Location = new System.Drawing.Point(256, 43);
+            this.tab3f2s.MaxLength = 2;
+            this.tab3f2s.Name = "tab3f2s";
+            this.tab3f2s.Size = new System.Drawing.Size(25, 20);
+            this.tab3f2s.TabIndex = 119;
+            this.tab3f2s.Tag = "";
+            this.tab3f2s.Text = "12";
+            this.tab3f2s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab3f2s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab3f2s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab3f2s.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // pictureBox28
             // 
@@ -2337,20 +2133,20 @@
             this.label44.TabIndex = 96;
             this.label44.Text = "Restaurante    meses";
             // 
-            // txtD2
+            // tab3f2
             // 
-            this.txtD2.Location = new System.Drawing.Point(30, 42);
-            this.txtD2.MaxLength = 14;
-            this.txtD2.Name = "txtD2";
-            this.txtD2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtD2.Size = new System.Drawing.Size(121, 20);
-            this.txtD2.TabIndex = 95;
-            this.txtD2.Tag = "9";
-            this.txtD2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtD2.Enter += new System.EventHandler(this.OnEnter);
-            this.txtD2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtD2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtD2.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab3f2.Location = new System.Drawing.Point(30, 42);
+            this.tab3f2.MaxLength = 14;
+            this.tab3f2.Name = "tab3f2";
+            this.tab3f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab3f2.Size = new System.Drawing.Size(121, 20);
+            this.tab3f2.TabIndex = 95;
+            this.tab3f2.Tag = "4";
+            this.tab3f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab3f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab3f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab3f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab3f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label46
             // 
@@ -2388,20 +2184,20 @@
             this.label47.TabIndex = 92;
             this.label47.Text = "Supermercado    meses";
             // 
-            // txtD1
+            // tab3f1
             // 
-            this.txtD1.Location = new System.Drawing.Point(30, 13);
-            this.txtD1.MaxLength = 14;
-            this.txtD1.Name = "txtD1";
-            this.txtD1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtD1.Size = new System.Drawing.Size(121, 20);
-            this.txtD1.TabIndex = 91;
-            this.txtD1.Tag = "9";
-            this.txtD1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtD1.Enter += new System.EventHandler(this.OnEnter);
-            this.txtD1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtD1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtD1.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab3f1.Location = new System.Drawing.Point(30, 13);
+            this.tab3f1.MaxLength = 14;
+            this.tab3f1.Name = "tab3f1";
+            this.tab3f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab3f1.Size = new System.Drawing.Size(121, 20);
+            this.tab3f1.TabIndex = 91;
+            this.tab3f1.Tag = "4";
+            this.tab3f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab3f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab3f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab3f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab3f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label48
             // 
@@ -2421,8 +2217,8 @@
             this.tabPet.Controls.Add(this.label69);
             this.tabPet.Controls.Add(this.textBox9);
             this.tabPet.Controls.Add(this.label70);
-            this.tabPet.Controls.Add(this.txtE11);
-            this.tabPet.Controls.Add(this.txtE22);
+            this.tabPet.Controls.Add(this.tab4f1s);
+            this.tabPet.Controls.Add(this.tab4f2s);
             this.tabPet.Controls.Add(this.pictureBox40);
             this.tabPet.Controls.Add(this.label63);
             this.tabPet.Controls.Add(this.textBox26);
@@ -2437,11 +2233,11 @@
             this.tabPet.Controls.Add(this.label62);
             this.tabPet.Controls.Add(this.pictureBox36);
             this.tabPet.Controls.Add(this.label55);
-            this.tabPet.Controls.Add(this.txtE2);
+            this.tabPet.Controls.Add(this.tab4f2);
             this.tabPet.Controls.Add(this.label56);
             this.tabPet.Controls.Add(this.pictureBox37);
             this.tabPet.Controls.Add(this.label57);
-            this.tabPet.Controls.Add(this.txtE1);
+            this.tabPet.Controls.Add(this.tab4f1);
             this.tabPet.Controls.Add(this.label58);
             this.tabPet.ImageIndex = 2;
             this.tabPet.Location = new System.Drawing.Point(4, 47);
@@ -2497,27 +2293,27 @@
             this.label70.TabIndex = 123;
             this.label70.Text = "$";
             // 
-            // txtE11
+            // tab4f1s
             // 
-            this.txtE11.Location = new System.Drawing.Point(214, 13);
-            this.txtE11.MaxLength = 2;
-            this.txtE11.Name = "txtE11";
-            this.txtE11.Size = new System.Drawing.Size(25, 20);
-            this.txtE11.TabIndex = 122;
-            this.txtE11.Tag = "10";
-            this.txtE11.Text = "12";
-            this.txtE11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab4f1s.Location = new System.Drawing.Point(214, 13);
+            this.tab4f1s.MaxLength = 2;
+            this.tab4f1s.Name = "tab4f1s";
+            this.tab4f1s.Size = new System.Drawing.Size(25, 20);
+            this.tab4f1s.TabIndex = 122;
+            this.tab4f1s.Tag = "10";
+            this.tab4f1s.Text = "12";
+            this.tab4f1s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtE22
+            // tab4f2s
             // 
-            this.txtE22.Location = new System.Drawing.Point(272, 42);
-            this.txtE22.MaxLength = 2;
-            this.txtE22.Name = "txtE22";
-            this.txtE22.Size = new System.Drawing.Size(25, 20);
-            this.txtE22.TabIndex = 121;
-            this.txtE22.Tag = "10";
-            this.txtE22.Text = "12";
-            this.txtE22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab4f2s.Location = new System.Drawing.Point(272, 42);
+            this.tab4f2s.MaxLength = 2;
+            this.tab4f2s.Name = "tab4f2s";
+            this.tab4f2s.Size = new System.Drawing.Size(25, 20);
+            this.tab4f2s.TabIndex = 121;
+            this.tab4f2s.Tag = "10";
+            this.tab4f2s.Text = "12";
+            this.tab4f2s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox40
             // 
@@ -2697,20 +2493,20 @@
             this.label55.TabIndex = 104;
             this.label55.Text = "Banho / Tosa    meses";
             // 
-            // txtE2
+            // tab4f2
             // 
-            this.txtE2.Location = new System.Drawing.Point(37, 41);
-            this.txtE2.MaxLength = 14;
-            this.txtE2.Name = "txtE2";
-            this.txtE2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtE2.Size = new System.Drawing.Size(121, 20);
-            this.txtE2.TabIndex = 103;
-            this.txtE2.Tag = "9";
-            this.txtE2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtE2.Enter += new System.EventHandler(this.OnEnter);
-            this.txtE2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtE2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtE2.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab4f2.Location = new System.Drawing.Point(37, 41);
+            this.tab4f2.MaxLength = 14;
+            this.tab4f2.Name = "tab4f2";
+            this.tab4f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab4f2.Size = new System.Drawing.Size(121, 20);
+            this.tab4f2.TabIndex = 103;
+            this.tab4f2.Tag = "4";
+            this.tab4f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab4f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab4f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab4f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab4f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label56
             // 
@@ -2748,20 +2544,20 @@
             this.label57.TabIndex = 100;
             this.label57.Text = "Ração    meses";
             // 
-            // txtE1
+            // tab4f1
             // 
-            this.txtE1.Location = new System.Drawing.Point(37, 12);
-            this.txtE1.MaxLength = 14;
-            this.txtE1.Name = "txtE1";
-            this.txtE1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtE1.Size = new System.Drawing.Size(121, 20);
-            this.txtE1.TabIndex = 99;
-            this.txtE1.Tag = "9";
-            this.txtE1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtE1.Enter += new System.EventHandler(this.OnEnter);
-            this.txtE1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtE1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtE1.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab4f1.Location = new System.Drawing.Point(37, 12);
+            this.tab4f1.MaxLength = 14;
+            this.tab4f1.Name = "tab4f1";
+            this.tab4f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab4f1.Size = new System.Drawing.Size(121, 20);
+            this.tab4f1.TabIndex = 99;
+            this.tab4f1.Tag = "4";
+            this.tab4f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab4f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab4f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab4f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab4f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label58
             // 
@@ -2777,14 +2573,14 @@
             // tabCloth
             // 
             this.tabCloth.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
-            this.tabCloth.Controls.Add(this.txtF11);
+            this.tabCloth.Controls.Add(this.tab5f2s);
             this.tabCloth.Controls.Add(this.pictureBox44);
             this.tabCloth.Controls.Add(this.label71);
-            this.tabCloth.Controls.Add(this.txtF1);
+            this.tabCloth.Controls.Add(this.tab5f2);
             this.tabCloth.Controls.Add(this.label72);
             this.tabCloth.Controls.Add(this.pictureBox45);
             this.tabCloth.Controls.Add(this.label73);
-            this.tabCloth.Controls.Add(this.textBox31);
+            this.tabCloth.Controls.Add(this.tab5f1);
             this.tabCloth.Controls.Add(this.label74);
             this.tabCloth.ImageIndex = 6;
             this.tabCloth.Location = new System.Drawing.Point(4, 47);
@@ -2794,19 +2590,19 @@
             this.tabCloth.TabIndex = 7;
             this.tabCloth.UseVisualStyleBackColor = true;
             // 
-            // txtF11
+            // tab5f2s
             // 
-            this.txtF11.Location = new System.Drawing.Point(215, 43);
-            this.txtF11.MaxLength = 2;
-            this.txtF11.Name = "txtF11";
-            this.txtF11.Size = new System.Drawing.Size(25, 20);
-            this.txtF11.TabIndex = 126;
-            this.txtF11.Tag = "10";
-            this.txtF11.Text = "12";
-            this.txtF11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtF11.Enter += new System.EventHandler(this.OnEnter);
-            this.txtF11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtF11.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab5f2s.Location = new System.Drawing.Point(215, 43);
+            this.tab5f2s.MaxLength = 2;
+            this.tab5f2s.Name = "tab5f2s";
+            this.tab5f2s.Size = new System.Drawing.Size(25, 20);
+            this.tab5f2s.TabIndex = 126;
+            this.tab5f2s.Tag = "";
+            this.tab5f2s.Text = "12";
+            this.tab5f2s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab5f2s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab5f2s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab5f2s.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // pictureBox44
             // 
@@ -2832,20 +2628,20 @@
             this.label71.TabIndex = 124;
             this.label71.Text = "Roupas    meses";
             // 
-            // txtF1
+            // tab5f2
             // 
-            this.txtF1.Location = new System.Drawing.Point(30, 42);
-            this.txtF1.MaxLength = 14;
-            this.txtF1.Name = "txtF1";
-            this.txtF1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtF1.Size = new System.Drawing.Size(121, 20);
-            this.txtF1.TabIndex = 123;
-            this.txtF1.Tag = "9";
-            this.txtF1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtF1.Enter += new System.EventHandler(this.OnEnter);
-            this.txtF1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtF1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtF1.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab5f2.Location = new System.Drawing.Point(30, 42);
+            this.tab5f2.MaxLength = 14;
+            this.tab5f2.Name = "tab5f2";
+            this.tab5f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab5f2.Size = new System.Drawing.Size(121, 20);
+            this.tab5f2.TabIndex = 123;
+            this.tab5f2.Tag = "4";
+            this.tab5f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab5f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab5f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab5f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab5f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label72
             // 
@@ -2883,20 +2679,20 @@
             this.label73.TabIndex = 120;
             this.label73.Text = "Roupas iniciais";
             // 
-            // textBox31
+            // tab5f1
             // 
-            this.textBox31.Location = new System.Drawing.Point(30, 13);
-            this.textBox31.MaxLength = 14;
-            this.textBox31.Name = "textBox31";
-            this.textBox31.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox31.Size = new System.Drawing.Size(121, 20);
-            this.textBox31.TabIndex = 119;
-            this.textBox31.Tag = "4";
-            this.textBox31.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox31.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox31.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox31.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox31.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab5f1.Location = new System.Drawing.Point(30, 13);
+            this.tab5f1.MaxLength = 14;
+            this.tab5f1.Name = "tab5f1";
+            this.tab5f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab5f1.Size = new System.Drawing.Size(121, 20);
+            this.tab5f1.TabIndex = 119;
+            this.tab5f1.Tag = "4";
+            this.tab5f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab5f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab5f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab5f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab5f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label74
             // 
@@ -2912,15 +2708,15 @@
             // tabJob
             // 
             this.tabJob.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
-            this.tabJob.Controls.Add(this.txtG22);
-            this.tabJob.Controls.Add(this.txtG11);
+            this.tabJob.Controls.Add(this.tab6f2s);
+            this.tabJob.Controls.Add(this.tab6f1s);
             this.tabJob.Controls.Add(this.pictureBox46);
             this.tabJob.Controls.Add(this.label75);
-            this.tabJob.Controls.Add(this.txtG2);
+            this.tabJob.Controls.Add(this.tab6f2);
             this.tabJob.Controls.Add(this.label76);
             this.tabJob.Controls.Add(this.pictureBox47);
             this.tabJob.Controls.Add(this.label77);
-            this.tabJob.Controls.Add(this.txtG1);
+            this.tabJob.Controls.Add(this.tab6f1);
             this.tabJob.Controls.Add(this.label78);
             this.tabJob.ImageIndex = 5;
             this.tabJob.Location = new System.Drawing.Point(4, 47);
@@ -2930,33 +2726,33 @@
             this.tabJob.TabIndex = 1;
             this.tabJob.UseVisualStyleBackColor = true;
             // 
-            // txtG22
+            // tab6f2s
             // 
-            this.txtG22.Location = new System.Drawing.Point(295, 43);
-            this.txtG22.MaxLength = 2;
-            this.txtG22.Name = "txtG22";
-            this.txtG22.Size = new System.Drawing.Size(25, 20);
-            this.txtG22.TabIndex = 127;
-            this.txtG22.Tag = "10";
-            this.txtG22.Text = "12";
-            this.txtG22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtG22.Enter += new System.EventHandler(this.OnEnter);
-            this.txtG22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtG22.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab6f2s.Location = new System.Drawing.Point(295, 43);
+            this.tab6f2s.MaxLength = 2;
+            this.tab6f2s.Name = "tab6f2s";
+            this.tab6f2s.Size = new System.Drawing.Size(25, 20);
+            this.tab6f2s.TabIndex = 127;
+            this.tab6f2s.Tag = "";
+            this.tab6f2s.Text = "12";
+            this.tab6f2s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab6f2s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab6f2s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab6f2s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtG11
+            // tab6f1s
             // 
-            this.txtG11.Location = new System.Drawing.Point(483, 14);
-            this.txtG11.MaxLength = 2;
-            this.txtG11.Name = "txtG11";
-            this.txtG11.Size = new System.Drawing.Size(25, 20);
-            this.txtG11.TabIndex = 126;
-            this.txtG11.Tag = "10";
-            this.txtG11.Text = "12";
-            this.txtG11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtG11.Enter += new System.EventHandler(this.OnEnter);
-            this.txtG11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtG11.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab6f1s.Location = new System.Drawing.Point(483, 14);
+            this.tab6f1s.MaxLength = 2;
+            this.tab6f1s.Name = "tab6f1s";
+            this.tab6f1s.Size = new System.Drawing.Size(25, 20);
+            this.tab6f1s.TabIndex = 126;
+            this.tab6f1s.Tag = "";
+            this.tab6f1s.Text = "12";
+            this.tab6f1s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab6f1s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab6f1s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab6f1s.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // pictureBox46
             // 
@@ -2983,20 +2779,20 @@
             this.label75.TabIndex = 124;
             this.label75.Text = "Renda no Canadá    meses";
             // 
-            // txtG2
+            // tab6f2
             // 
-            this.txtG2.Location = new System.Drawing.Point(33, 42);
-            this.txtG2.MaxLength = 14;
-            this.txtG2.Name = "txtG2";
-            this.txtG2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtG2.Size = new System.Drawing.Size(121, 20);
-            this.txtG2.TabIndex = 123;
-            this.txtG2.Tag = "8";
-            this.txtG2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtG2.Enter += new System.EventHandler(this.OnEnter);
-            this.txtG2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtG2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtG2.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab6f2.Location = new System.Drawing.Point(33, 42);
+            this.tab6f2.MaxLength = 14;
+            this.tab6f2.Name = "tab6f2";
+            this.tab6f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab6f2.Size = new System.Drawing.Size(121, 20);
+            this.tab6f2.TabIndex = 123;
+            this.tab6f2.Tag = "3";
+            this.tab6f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab6f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab6f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab6f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab6f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label76
             // 
@@ -3034,20 +2830,20 @@
             this.label77.TabIndex = 120;
             this.label77.Text = "Renda no Brasil (desconsiderando aluguel)    meses";
             // 
-            // txtG1
+            // tab6f1
             // 
-            this.txtG1.Location = new System.Drawing.Point(33, 13);
-            this.txtG1.MaxLength = 14;
-            this.txtG1.Name = "txtG1";
-            this.txtG1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtG1.Size = new System.Drawing.Size(121, 20);
-            this.txtG1.TabIndex = 119;
-            this.txtG1.Tag = "6";
-            this.txtG1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtG1.Enter += new System.EventHandler(this.OnEnter);
-            this.txtG1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtG1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtG1.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab6f1.Location = new System.Drawing.Point(33, 13);
+            this.tab6f1.MaxLength = 14;
+            this.tab6f1.Name = "tab6f1";
+            this.tab6f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab6f1.Size = new System.Drawing.Size(121, 20);
+            this.tab6f1.TabIndex = 119;
+            this.tab6f1.Tag = "1";
+            this.tab6f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab6f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab6f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab6f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab6f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label78
             // 
@@ -3063,27 +2859,27 @@
             // tabStudy
             // 
             this.tabStudy.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
-            this.tabStudy.Controls.Add(this.txtH22);
-            this.tabStudy.Controls.Add(this.txtH11);
+            this.tabStudy.Controls.Add(this.tab7f2s);
+            this.tabStudy.Controls.Add(this.tab7f1s);
             this.tabStudy.Controls.Add(this.pictureBox53);
             this.tabStudy.Controls.Add(this.label89);
-            this.tabStudy.Controls.Add(this.textBox39);
+            this.tabStudy.Controls.Add(this.tab7f3);
             this.tabStudy.Controls.Add(this.label90);
             this.tabStudy.Controls.Add(this.pictureBox41);
             this.tabStudy.Controls.Add(this.label65);
-            this.tabStudy.Controls.Add(this.textBox27);
+            this.tabStudy.Controls.Add(this.tab7f5);
             this.tabStudy.Controls.Add(this.label66);
             this.tabStudy.Controls.Add(this.pictureBox42);
             this.tabStudy.Controls.Add(this.label67);
-            this.tabStudy.Controls.Add(this.textBox28);
+            this.tabStudy.Controls.Add(this.tab7f4);
             this.tabStudy.Controls.Add(this.label68);
             this.tabStudy.Controls.Add(this.pictureBox48);
             this.tabStudy.Controls.Add(this.label79);
-            this.tabStudy.Controls.Add(this.txtH2);
+            this.tabStudy.Controls.Add(this.tab7f2);
             this.tabStudy.Controls.Add(this.label80);
             this.tabStudy.Controls.Add(this.pictureBox49);
             this.tabStudy.Controls.Add(this.label81);
-            this.tabStudy.Controls.Add(this.txtH1);
+            this.tabStudy.Controls.Add(this.tab7f1);
             this.tabStudy.Controls.Add(this.label82);
             this.tabStudy.ImageIndex = 7;
             this.tabStudy.Location = new System.Drawing.Point(4, 47);
@@ -3093,33 +2889,33 @@
             this.tabStudy.TabIndex = 3;
             this.tabStudy.UseVisualStyleBackColor = true;
             // 
-            // txtH22
+            // tab7f2s
             // 
-            this.txtH22.Location = new System.Drawing.Point(300, 39);
-            this.txtH22.MaxLength = 2;
-            this.txtH22.Name = "txtH22";
-            this.txtH22.Size = new System.Drawing.Size(25, 20);
-            this.txtH22.TabIndex = 143;
-            this.txtH22.Tag = "10";
-            this.txtH22.Text = "12";
-            this.txtH22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtH22.Enter += new System.EventHandler(this.OnEnter);
-            this.txtH22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtH22.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab7f2s.Location = new System.Drawing.Point(300, 39);
+            this.tab7f2s.MaxLength = 2;
+            this.tab7f2s.Name = "tab7f2s";
+            this.tab7f2s.Size = new System.Drawing.Size(25, 20);
+            this.tab7f2s.TabIndex = 143;
+            this.tab7f2s.Tag = "";
+            this.tab7f2s.Text = "12";
+            this.tab7f2s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab7f2s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab7f2s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab7f2s.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // txtH11
+            // tab7f1s
             // 
-            this.txtH11.Location = new System.Drawing.Point(220, 13);
-            this.txtH11.MaxLength = 1;
-            this.txtH11.Name = "txtH11";
-            this.txtH11.Size = new System.Drawing.Size(25, 20);
-            this.txtH11.TabIndex = 142;
-            this.txtH11.Tag = "11";
-            this.txtH11.Text = "2";
-            this.txtH11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtH11.Enter += new System.EventHandler(this.OnEnter);
-            this.txtH11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtH11.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab7f1s.Location = new System.Drawing.Point(220, 13);
+            this.tab7f1s.MaxLength = 1;
+            this.tab7f1s.Name = "tab7f1s";
+            this.tab7f1s.Size = new System.Drawing.Size(25, 20);
+            this.tab7f1s.TabIndex = 142;
+            this.tab7f1s.Tag = "";
+            this.tab7f1s.Text = "12";
+            this.tab7f1s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab7f1s.Enter += new System.EventHandler(this.OnEnter);
+            this.tab7f1s.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab7f1s.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // pictureBox53
             // 
@@ -3146,20 +2942,20 @@
             this.label89.TabIndex = 140;
             this.label89.Text = "Material Escolar";
             // 
-            // textBox39
+            // tab7f3
             // 
-            this.textBox39.Location = new System.Drawing.Point(34, 64);
-            this.textBox39.MaxLength = 14;
-            this.textBox39.Name = "textBox39";
-            this.textBox39.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox39.Size = new System.Drawing.Size(121, 20);
-            this.textBox39.TabIndex = 139;
-            this.textBox39.Tag = "4";
-            this.textBox39.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox39.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox39.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox39.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox39.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab7f3.Location = new System.Drawing.Point(34, 64);
+            this.tab7f3.MaxLength = 14;
+            this.tab7f3.Name = "tab7f3";
+            this.tab7f3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab7f3.Size = new System.Drawing.Size(121, 20);
+            this.tab7f3.TabIndex = 139;
+            this.tab7f3.Tag = "4";
+            this.tab7f3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab7f3.Enter += new System.EventHandler(this.OnEnter);
+            this.tab7f3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab7f3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab7f3.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label90
             // 
@@ -3197,20 +2993,20 @@
             this.label65.TabIndex = 136;
             this.label65.Text = "IELTS / TOEFL / TCF no Canadá";
             // 
-            // textBox27
+            // tab7f5
             // 
-            this.textBox27.Location = new System.Drawing.Point(34, 120);
-            this.textBox27.MaxLength = 14;
-            this.textBox27.Name = "textBox27";
-            this.textBox27.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox27.Size = new System.Drawing.Size(121, 20);
-            this.textBox27.TabIndex = 135;
-            this.textBox27.Tag = "4";
-            this.textBox27.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox27.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox27.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox27.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox27.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab7f5.Location = new System.Drawing.Point(34, 120);
+            this.tab7f5.MaxLength = 14;
+            this.tab7f5.Name = "tab7f5";
+            this.tab7f5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab7f5.Size = new System.Drawing.Size(121, 20);
+            this.tab7f5.TabIndex = 135;
+            this.tab7f5.Tag = "4";
+            this.tab7f5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab7f5.Enter += new System.EventHandler(this.OnEnter);
+            this.tab7f5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab7f5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab7f5.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label66
             // 
@@ -3248,20 +3044,20 @@
             this.label67.TabIndex = 132;
             this.label67.Text = "IELTS / TOEFL / TCF no Brasil";
             // 
-            // textBox28
+            // tab7f4
             // 
-            this.textBox28.Location = new System.Drawing.Point(34, 92);
-            this.textBox28.MaxLength = 14;
-            this.textBox28.Name = "textBox28";
-            this.textBox28.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox28.Size = new System.Drawing.Size(121, 20);
-            this.textBox28.TabIndex = 131;
-            this.textBox28.Tag = "2";
-            this.textBox28.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox28.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox28.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox28.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox28.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab7f4.Location = new System.Drawing.Point(34, 92);
+            this.tab7f4.MaxLength = 14;
+            this.tab7f4.Name = "tab7f4";
+            this.tab7f4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab7f4.Size = new System.Drawing.Size(121, 20);
+            this.tab7f4.TabIndex = 131;
+            this.tab7f4.Tag = "2";
+            this.tab7f4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab7f4.Enter += new System.EventHandler(this.OnEnter);
+            this.tab7f4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab7f4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab7f4.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label68
             // 
@@ -3299,20 +3095,20 @@
             this.label79.TabIndex = 124;
             this.label79.Text = "Inglês / Pathway    meses";
             // 
-            // txtH2
+            // tab7f2
             // 
-            this.txtH2.Location = new System.Drawing.Point(34, 38);
-            this.txtH2.MaxLength = 14;
-            this.txtH2.Name = "txtH2";
-            this.txtH2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtH2.Size = new System.Drawing.Size(121, 20);
-            this.txtH2.TabIndex = 123;
-            this.txtH2.Tag = "9";
-            this.txtH2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtH2.Enter += new System.EventHandler(this.OnEnter);
-            this.txtH2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtH2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtH2.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab7f2.Location = new System.Drawing.Point(34, 38);
+            this.tab7f2.MaxLength = 14;
+            this.tab7f2.Name = "tab7f2";
+            this.tab7f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab7f2.Size = new System.Drawing.Size(121, 20);
+            this.tab7f2.TabIndex = 123;
+            this.tab7f2.Tag = "4";
+            this.tab7f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab7f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab7f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab7f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab7f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label80
             // 
@@ -3350,20 +3146,20 @@
             this.label81.TabIndex = 120;
             this.label81.Text = "College    semestres no primeiro ano";
             // 
-            // txtH1
+            // tab7f1
             // 
-            this.txtH1.Location = new System.Drawing.Point(34, 12);
-            this.txtH1.MaxLength = 14;
-            this.txtH1.Name = "txtH1";
-            this.txtH1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtH1.Size = new System.Drawing.Size(121, 20);
-            this.txtH1.TabIndex = 119;
-            this.txtH1.Tag = "9";
-            this.txtH1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtH1.Enter += new System.EventHandler(this.OnEnter);
-            this.txtH1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtH1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtH1.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab7f1.Location = new System.Drawing.Point(34, 12);
+            this.tab7f1.MaxLength = 14;
+            this.tab7f1.Name = "tab7f1";
+            this.tab7f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab7f1.Size = new System.Drawing.Size(121, 20);
+            this.tab7f1.TabIndex = 119;
+            this.tab7f1.Tag = "4";
+            this.tab7f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab7f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab7f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab7f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab7f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label82
             // 
@@ -3381,47 +3177,47 @@
             this.tabVisa.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
             this.tabVisa.Controls.Add(this.pictureBox16);
             this.tabVisa.Controls.Add(this.label6);
-            this.tabVisa.Controls.Add(this.textBox2);
+            this.tabVisa.Controls.Add(this.tab8f11);
             this.tabVisa.Controls.Add(this.label7);
             this.tabVisa.Controls.Add(this.pictureBox43);
             this.tabVisa.Controls.Add(this.label38);
-            this.tabVisa.Controls.Add(this.textBox8);
+            this.tabVisa.Controls.Add(this.tab8f2);
             this.tabVisa.Controls.Add(this.label45);
             this.tabVisa.Controls.Add(this.pictureBox62);
             this.tabVisa.Controls.Add(this.label103);
-            this.tabVisa.Controls.Add(this.textBox46);
+            this.tabVisa.Controls.Add(this.tab8f10);
             this.tabVisa.Controls.Add(this.label104);
             this.tabVisa.Controls.Add(this.pictureBox63);
             this.tabVisa.Controls.Add(this.label105);
-            this.tabVisa.Controls.Add(this.textBox47);
+            this.tabVisa.Controls.Add(this.tab8f9);
             this.tabVisa.Controls.Add(this.label106);
             this.tabVisa.Controls.Add(this.pictureBox60);
             this.tabVisa.Controls.Add(this.label99);
-            this.tabVisa.Controls.Add(this.textBox44);
+            this.tabVisa.Controls.Add(this.tab8f8);
             this.tabVisa.Controls.Add(this.label100);
             this.tabVisa.Controls.Add(this.pictureBox58);
             this.tabVisa.Controls.Add(this.label95);
-            this.tabVisa.Controls.Add(this.textBox42);
+            this.tabVisa.Controls.Add(this.tab8f7);
             this.tabVisa.Controls.Add(this.label96);
             this.tabVisa.Controls.Add(this.pictureBox59);
             this.tabVisa.Controls.Add(this.label97);
-            this.tabVisa.Controls.Add(this.textBox43);
+            this.tabVisa.Controls.Add(this.tab8f6);
             this.tabVisa.Controls.Add(this.label98);
             this.tabVisa.Controls.Add(this.pictureBox56);
             this.tabVisa.Controls.Add(this.label91);
-            this.tabVisa.Controls.Add(this.textBox40);
+            this.tabVisa.Controls.Add(this.tab8f5);
             this.tabVisa.Controls.Add(this.label92);
             this.tabVisa.Controls.Add(this.pictureBox57);
             this.tabVisa.Controls.Add(this.label93);
-            this.tabVisa.Controls.Add(this.textBox41);
+            this.tabVisa.Controls.Add(this.tab8f4);
             this.tabVisa.Controls.Add(this.label94);
             this.tabVisa.Controls.Add(this.pictureBox54);
             this.tabVisa.Controls.Add(this.label85);
-            this.tabVisa.Controls.Add(this.textBox37);
+            this.tabVisa.Controls.Add(this.tab8f3);
             this.tabVisa.Controls.Add(this.label86);
             this.tabVisa.Controls.Add(this.pictureBox55);
             this.tabVisa.Controls.Add(this.label87);
-            this.tabVisa.Controls.Add(this.textBox38);
+            this.tabVisa.Controls.Add(this.tab8f1);
             this.tabVisa.Controls.Add(this.label88);
             this.tabVisa.ImageIndex = 8;
             this.tabVisa.Location = new System.Drawing.Point(4, 47);
@@ -3456,20 +3252,20 @@
             this.label6.TabIndex = 168;
             this.label6.Text = "Biometria";
             // 
-            // textBox2
+            // tab8f11
             // 
-            this.textBox2.Location = new System.Drawing.Point(32, 284);
-            this.textBox2.MaxLength = 14;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox2.Size = new System.Drawing.Size(121, 20);
-            this.textBox2.TabIndex = 167;
-            this.textBox2.Tag = "4";
-            this.textBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox2.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox2.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f11.Location = new System.Drawing.Point(32, 284);
+            this.tab8f11.MaxLength = 14;
+            this.tab8f11.Name = "tab8f11";
+            this.tab8f11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f11.Size = new System.Drawing.Size(121, 20);
+            this.tab8f11.TabIndex = 167;
+            this.tab8f11.Tag = "4";
+            this.tab8f11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f11.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f11.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f11.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label7
             // 
@@ -3508,15 +3304,15 @@
             this.label38.TabIndex = 164;
             this.label38.Text = "Passaporte no Canadá";
             // 
-            // textBox8
+            // tab8f2
             // 
-            this.textBox8.Location = new System.Drawing.Point(32, 39);
-            this.textBox8.MaxLength = 14;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox8.Size = new System.Drawing.Size(121, 20);
-            this.textBox8.TabIndex = 163;
-            this.textBox8.Tag = "4";
+            this.tab8f2.Location = new System.Drawing.Point(32, 39);
+            this.tab8f2.MaxLength = 14;
+            this.tab8f2.Name = "tab8f2";
+            this.tab8f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f2.Size = new System.Drawing.Size(121, 20);
+            this.tab8f2.TabIndex = 163;
+            this.tab8f2.Tag = "4";
             // 
             // label45
             // 
@@ -3554,20 +3350,20 @@
             this.label103.TabIndex = 160;
             this.label103.Text = "Tradução de documentos no Canadá";
             // 
-            // textBox46
+            // tab8f10
             // 
-            this.textBox46.Location = new System.Drawing.Point(32, 258);
-            this.textBox46.MaxLength = 14;
-            this.textBox46.Name = "textBox46";
-            this.textBox46.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox46.Size = new System.Drawing.Size(121, 20);
-            this.textBox46.TabIndex = 159;
-            this.textBox46.Tag = "4";
-            this.textBox46.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox46.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox46.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox46.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox46.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f10.Location = new System.Drawing.Point(32, 258);
+            this.tab8f10.MaxLength = 14;
+            this.tab8f10.Name = "tab8f10";
+            this.tab8f10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f10.Size = new System.Drawing.Size(121, 20);
+            this.tab8f10.TabIndex = 159;
+            this.tab8f10.Tag = "4";
+            this.tab8f10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f10.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f10.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f10.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label104
             // 
@@ -3605,20 +3401,20 @@
             this.label105.TabIndex = 156;
             this.label105.Text = "Tradução de documentos no Brasil";
             // 
-            // textBox47
+            // tab8f9
             // 
-            this.textBox47.Location = new System.Drawing.Point(32, 232);
-            this.textBox47.MaxLength = 14;
-            this.textBox47.Name = "textBox47";
-            this.textBox47.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox47.Size = new System.Drawing.Size(121, 20);
-            this.textBox47.TabIndex = 155;
-            this.textBox47.Tag = "2";
-            this.textBox47.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox47.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox47.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox47.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox47.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f9.Location = new System.Drawing.Point(32, 232);
+            this.tab8f9.MaxLength = 14;
+            this.tab8f9.Name = "tab8f9";
+            this.tab8f9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f9.Size = new System.Drawing.Size(121, 20);
+            this.tab8f9.TabIndex = 155;
+            this.tab8f9.Tag = "2";
+            this.tab8f9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f9.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f9.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f9.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label106
             // 
@@ -3655,20 +3451,20 @@
             this.label99.TabIndex = 152;
             this.label99.Text = "ETA";
             // 
-            // textBox44
+            // tab8f8
             // 
-            this.textBox44.Location = new System.Drawing.Point(32, 203);
-            this.textBox44.MaxLength = 14;
-            this.textBox44.Name = "textBox44";
-            this.textBox44.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox44.Size = new System.Drawing.Size(121, 20);
-            this.textBox44.TabIndex = 151;
-            this.textBox44.Tag = "4";
-            this.textBox44.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox44.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox44.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox44.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox44.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f8.Location = new System.Drawing.Point(32, 203);
+            this.tab8f8.MaxLength = 14;
+            this.tab8f8.Name = "tab8f8";
+            this.tab8f8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f8.Size = new System.Drawing.Size(121, 20);
+            this.tab8f8.TabIndex = 151;
+            this.tab8f8.Tag = "4";
+            this.tab8f8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f8.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f8.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f8.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label100
             // 
@@ -3705,20 +3501,20 @@
             this.label95.TabIndex = 148;
             this.label95.Text = "Visto Trabalho";
             // 
-            // textBox42
+            // tab8f7
             // 
-            this.textBox42.Location = new System.Drawing.Point(32, 175);
-            this.textBox42.MaxLength = 14;
-            this.textBox42.Name = "textBox42";
-            this.textBox42.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox42.Size = new System.Drawing.Size(121, 20);
-            this.textBox42.TabIndex = 147;
-            this.textBox42.Tag = "4";
-            this.textBox42.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox42.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox42.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox42.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox42.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f7.Location = new System.Drawing.Point(32, 175);
+            this.tab8f7.MaxLength = 14;
+            this.tab8f7.Name = "tab8f7";
+            this.tab8f7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f7.Size = new System.Drawing.Size(121, 20);
+            this.tab8f7.TabIndex = 147;
+            this.tab8f7.Tag = "4";
+            this.tab8f7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f7.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f7.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label96
             // 
@@ -3755,20 +3551,20 @@
             this.label97.TabIndex = 144;
             this.label97.Text = "Visto Visitante";
             // 
-            // textBox43
+            // tab8f6
             // 
-            this.textBox43.Location = new System.Drawing.Point(32, 146);
-            this.textBox43.MaxLength = 14;
-            this.textBox43.Name = "textBox43";
-            this.textBox43.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox43.Size = new System.Drawing.Size(121, 20);
-            this.textBox43.TabIndex = 143;
-            this.textBox43.Tag = "4";
-            this.textBox43.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox43.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox43.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox43.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox43.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f6.Location = new System.Drawing.Point(32, 146);
+            this.tab8f6.MaxLength = 14;
+            this.tab8f6.Name = "tab8f6";
+            this.tab8f6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f6.Size = new System.Drawing.Size(121, 20);
+            this.tab8f6.TabIndex = 143;
+            this.tab8f6.Tag = "4";
+            this.tab8f6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f6.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f6.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label98
             // 
@@ -3805,20 +3601,20 @@
             this.label91.TabIndex = 140;
             this.label91.Text = "Visto Turismo";
             // 
-            // textBox40
+            // tab8f5
             // 
-            this.textBox40.Location = new System.Drawing.Point(32, 119);
-            this.textBox40.MaxLength = 14;
-            this.textBox40.Name = "textBox40";
-            this.textBox40.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox40.Size = new System.Drawing.Size(121, 20);
-            this.textBox40.TabIndex = 139;
-            this.textBox40.Tag = "4";
-            this.textBox40.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox40.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox40.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox40.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox40.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f5.Location = new System.Drawing.Point(32, 119);
+            this.tab8f5.MaxLength = 14;
+            this.tab8f5.Name = "tab8f5";
+            this.tab8f5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f5.Size = new System.Drawing.Size(121, 20);
+            this.tab8f5.TabIndex = 139;
+            this.tab8f5.Tag = "4";
+            this.tab8f5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f5.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f5.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label92
             // 
@@ -3855,20 +3651,20 @@
             this.label93.TabIndex = 136;
             this.label93.Text = "Visto Estudante";
             // 
-            // textBox41
+            // tab8f4
             // 
-            this.textBox41.Location = new System.Drawing.Point(32, 90);
-            this.textBox41.MaxLength = 14;
-            this.textBox41.Name = "textBox41";
-            this.textBox41.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox41.Size = new System.Drawing.Size(121, 20);
-            this.textBox41.TabIndex = 135;
-            this.textBox41.Tag = "4";
-            this.textBox41.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox41.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox41.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox41.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox41.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f4.Location = new System.Drawing.Point(32, 90);
+            this.tab8f4.MaxLength = 14;
+            this.tab8f4.Name = "tab8f4";
+            this.tab8f4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f4.Size = new System.Drawing.Size(121, 20);
+            this.tab8f4.TabIndex = 135;
+            this.tab8f4.Tag = "4";
+            this.tab8f4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f4.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f4.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label94
             // 
@@ -3905,20 +3701,20 @@
             this.label85.TabIndex = 132;
             this.label85.Text = "Visto USA";
             // 
-            // textBox37
+            // tab8f3
             // 
-            this.textBox37.Location = new System.Drawing.Point(32, 64);
-            this.textBox37.MaxLength = 14;
-            this.textBox37.Name = "textBox37";
-            this.textBox37.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox37.Size = new System.Drawing.Size(121, 20);
-            this.textBox37.TabIndex = 131;
-            this.textBox37.Tag = "4";
-            this.textBox37.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox37.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox37.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox37.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox37.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f3.Location = new System.Drawing.Point(32, 64);
+            this.tab8f3.MaxLength = 14;
+            this.tab8f3.Name = "tab8f3";
+            this.tab8f3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f3.Size = new System.Drawing.Size(121, 20);
+            this.tab8f3.TabIndex = 131;
+            this.tab8f3.Tag = "4";
+            this.tab8f3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f3.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f3.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label86
             // 
@@ -3956,20 +3752,20 @@
             this.label87.TabIndex = 128;
             this.label87.Text = "Passaporte no Brasil";
             // 
-            // textBox38
+            // tab8f1
             // 
-            this.textBox38.Location = new System.Drawing.Point(32, 13);
-            this.textBox38.MaxLength = 14;
-            this.textBox38.Name = "textBox38";
-            this.textBox38.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox38.Size = new System.Drawing.Size(121, 20);
-            this.textBox38.TabIndex = 127;
-            this.textBox38.Tag = "2";
-            this.textBox38.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox38.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox38.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox38.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox38.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab8f1.Location = new System.Drawing.Point(32, 13);
+            this.tab8f1.MaxLength = 14;
+            this.tab8f1.Name = "tab8f1";
+            this.tab8f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab8f1.Size = new System.Drawing.Size(121, 20);
+            this.tab8f1.TabIndex = 127;
+            this.tab8f1.Tag = "2";
+            this.tab8f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab8f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab8f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab8f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab8f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label88
             // 
@@ -3985,51 +3781,51 @@
             // tabTransport
             // 
             this.tabTransport.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
-            this.tabTransport.Controls.Add(this.txtI66);
-            this.tabTransport.Controls.Add(this.txtI55);
-            this.tabTransport.Controls.Add(this.txtI44);
-            this.tabTransport.Controls.Add(this.txtI33);
-            this.tabTransport.Controls.Add(this.txtI22);
-            this.tabTransport.Controls.Add(this.txtI11);
+            this.tabTransport.Controls.Add(this.tab9f9s);
+            this.tabTransport.Controls.Add(this.tab9f8s);
+            this.tabTransport.Controls.Add(this.tab9f5s);
+            this.tabTransport.Controls.Add(this.tab9f3s);
+            this.tabTransport.Controls.Add(this.tab9f2s);
+            this.tabTransport.Controls.Add(this.tab9f1s);
             this.tabTransport.Controls.Add(this.pictureBox80);
             this.tabTransport.Controls.Add(this.label139);
-            this.tabTransport.Controls.Add(this.textBox64);
+            this.tabTransport.Controls.Add(this.tab9f10);
             this.tabTransport.Controls.Add(this.label140);
             this.tabTransport.Controls.Add(this.pictureBox74);
             this.tabTransport.Controls.Add(this.label127);
-            this.tabTransport.Controls.Add(this.txtI2);
+            this.tabTransport.Controls.Add(this.tab9f2);
             this.tabTransport.Controls.Add(this.label128);
             this.tabTransport.Controls.Add(this.pictureBox72);
             this.tabTransport.Controls.Add(this.label123);
-            this.tabTransport.Controls.Add(this.txtI6);
+            this.tabTransport.Controls.Add(this.tab9f9);
             this.tabTransport.Controls.Add(this.label124);
             this.tabTransport.Controls.Add(this.pictureBox73);
             this.tabTransport.Controls.Add(this.label125);
-            this.tabTransport.Controls.Add(this.txtI5);
+            this.tabTransport.Controls.Add(this.tab9f8);
             this.tabTransport.Controls.Add(this.label126);
             this.tabTransport.Controls.Add(this.pictureBox61);
             this.tabTransport.Controls.Add(this.label101);
-            this.tabTransport.Controls.Add(this.textBox45);
+            this.tabTransport.Controls.Add(this.tab9f7);
             this.tabTransport.Controls.Add(this.label102);
             this.tabTransport.Controls.Add(this.pictureBox66);
             this.tabTransport.Controls.Add(this.label111);
-            this.tabTransport.Controls.Add(this.textBox50);
+            this.tabTransport.Controls.Add(this.tab9f6);
             this.tabTransport.Controls.Add(this.label112);
             this.tabTransport.Controls.Add(this.pictureBox67);
             this.tabTransport.Controls.Add(this.label113);
-            this.tabTransport.Controls.Add(this.txtI4);
+            this.tabTransport.Controls.Add(this.tab9f5);
             this.tabTransport.Controls.Add(this.label114);
             this.tabTransport.Controls.Add(this.pictureBox68);
             this.tabTransport.Controls.Add(this.label115);
-            this.tabTransport.Controls.Add(this.textBox52);
+            this.tabTransport.Controls.Add(this.tab9f4);
             this.tabTransport.Controls.Add(this.label116);
             this.tabTransport.Controls.Add(this.pictureBox69);
             this.tabTransport.Controls.Add(this.label117);
-            this.tabTransport.Controls.Add(this.txtI3);
+            this.tabTransport.Controls.Add(this.tab9f3);
             this.tabTransport.Controls.Add(this.label118);
             this.tabTransport.Controls.Add(this.pictureBox70);
             this.tabTransport.Controls.Add(this.label119);
-            this.tabTransport.Controls.Add(this.txtI1);
+            this.tabTransport.Controls.Add(this.tab9f1);
             this.tabTransport.Controls.Add(this.label120);
             this.tabTransport.ImageIndex = 12;
             this.tabTransport.Location = new System.Drawing.Point(4, 47);
@@ -4039,71 +3835,71 @@
             this.tabTransport.TabIndex = 8;
             this.tabTransport.UseVisualStyleBackColor = true;
             // 
-            // txtI66
+            // tab9f9s
             // 
-            this.txtI66.Location = new System.Drawing.Point(253, 246);
-            this.txtI66.MaxLength = 2;
-            this.txtI66.Name = "txtI66";
-            this.txtI66.Size = new System.Drawing.Size(25, 20);
-            this.txtI66.TabIndex = 195;
-            this.txtI66.Tag = "10";
-            this.txtI66.Text = "12";
-            this.txtI66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab9f9s.Location = new System.Drawing.Point(253, 246);
+            this.tab9f9s.MaxLength = 2;
+            this.tab9f9s.Name = "tab9f9s";
+            this.tab9f9s.Size = new System.Drawing.Size(25, 20);
+            this.tab9f9s.TabIndex = 195;
+            this.tab9f9s.Tag = "10";
+            this.tab9f9s.Text = "12";
+            this.tab9f9s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtI55
+            // tab9f8s
             // 
-            this.txtI55.Location = new System.Drawing.Point(216, 217);
-            this.txtI55.MaxLength = 2;
-            this.txtI55.Name = "txtI55";
-            this.txtI55.Size = new System.Drawing.Size(25, 20);
-            this.txtI55.TabIndex = 194;
-            this.txtI55.Tag = "10";
-            this.txtI55.Text = "12";
-            this.txtI55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab9f8s.Location = new System.Drawing.Point(216, 217);
+            this.tab9f8s.MaxLength = 2;
+            this.tab9f8s.Name = "tab9f8s";
+            this.tab9f8s.Size = new System.Drawing.Size(25, 20);
+            this.tab9f8s.TabIndex = 194;
+            this.tab9f8s.Tag = "10";
+            this.tab9f8s.Text = "12";
+            this.tab9f8s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtI44
+            // tab9f5s
             // 
-            this.txtI44.Location = new System.Drawing.Point(224, 130);
-            this.txtI44.MaxLength = 2;
-            this.txtI44.Name = "txtI44";
-            this.txtI44.Size = new System.Drawing.Size(25, 20);
-            this.txtI44.TabIndex = 193;
-            this.txtI44.Tag = "10";
-            this.txtI44.Text = "12";
-            this.txtI44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab9f5s.Location = new System.Drawing.Point(224, 130);
+            this.tab9f5s.MaxLength = 2;
+            this.tab9f5s.Name = "tab9f5s";
+            this.tab9f5s.Size = new System.Drawing.Size(25, 20);
+            this.tab9f5s.TabIndex = 193;
+            this.tab9f5s.Tag = "10";
+            this.tab9f5s.Text = "12";
+            this.tab9f5s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtI33
+            // tab9f3s
             // 
-            this.txtI33.Location = new System.Drawing.Point(375, 74);
-            this.txtI33.MaxLength = 2;
-            this.txtI33.Name = "txtI33";
-            this.txtI33.Size = new System.Drawing.Size(25, 20);
-            this.txtI33.TabIndex = 192;
-            this.txtI33.Tag = "10";
-            this.txtI33.Text = "12";
-            this.txtI33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab9f3s.Location = new System.Drawing.Point(375, 74);
+            this.tab9f3s.MaxLength = 2;
+            this.tab9f3s.Name = "tab9f3s";
+            this.tab9f3s.Size = new System.Drawing.Size(25, 20);
+            this.tab9f3s.TabIndex = 192;
+            this.tab9f3s.Tag = "10";
+            this.tab9f3s.Text = "12";
+            this.tab9f3s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtI22
+            // tab9f2s
             // 
-            this.txtI22.Location = new System.Drawing.Point(203, 44);
-            this.txtI22.MaxLength = 2;
-            this.txtI22.Name = "txtI22";
-            this.txtI22.Size = new System.Drawing.Size(25, 20);
-            this.txtI22.TabIndex = 191;
-            this.txtI22.Tag = "10";
-            this.txtI22.Text = "12";
-            this.txtI22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab9f2s.Location = new System.Drawing.Point(203, 44);
+            this.tab9f2s.MaxLength = 2;
+            this.tab9f2s.Name = "tab9f2s";
+            this.tab9f2s.Size = new System.Drawing.Size(25, 20);
+            this.tab9f2s.TabIndex = 191;
+            this.tab9f2s.Tag = "10";
+            this.tab9f2s.Text = "12";
+            this.tab9f2s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtI11
+            // tab9f1s
             // 
-            this.txtI11.Location = new System.Drawing.Point(308, 14);
-            this.txtI11.MaxLength = 2;
-            this.txtI11.Name = "txtI11";
-            this.txtI11.Size = new System.Drawing.Size(25, 20);
-            this.txtI11.TabIndex = 190;
-            this.txtI11.Tag = "10";
-            this.txtI11.Text = "12";
-            this.txtI11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab9f1s.Location = new System.Drawing.Point(308, 14);
+            this.tab9f1s.MaxLength = 2;
+            this.tab9f1s.Name = "tab9f1s";
+            this.tab9f1s.Size = new System.Drawing.Size(25, 20);
+            this.tab9f1s.TabIndex = 190;
+            this.tab9f1s.Tag = "10";
+            this.tab9f1s.Text = "12";
+            this.tab9f1s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox80
             // 
@@ -4129,20 +3925,20 @@
             this.label139.TabIndex = 188;
             this.label139.Text = "Aluguel de carro";
             // 
-            // textBox64
+            // tab9f10
             // 
-            this.textBox64.Location = new System.Drawing.Point(31, 274);
-            this.textBox64.MaxLength = 14;
-            this.textBox64.Name = "textBox64";
-            this.textBox64.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox64.Size = new System.Drawing.Size(121, 20);
-            this.textBox64.TabIndex = 187;
-            this.textBox64.Tag = "4";
-            this.textBox64.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox64.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox64.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox64.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox64.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f10.Location = new System.Drawing.Point(31, 274);
+            this.tab9f10.MaxLength = 14;
+            this.tab9f10.Name = "tab9f10";
+            this.tab9f10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f10.Size = new System.Drawing.Size(121, 20);
+            this.tab9f10.TabIndex = 187;
+            this.tab9f10.Tag = "4";
+            this.tab9f10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f10.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f10.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f10.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label140
             // 
@@ -4179,20 +3975,20 @@
             this.label127.TabIndex = 184;
             this.label127.Text = "Uber    meses";
             // 
-            // txtI2
+            // tab9f2
             // 
-            this.txtI2.Location = new System.Drawing.Point(31, 43);
-            this.txtI2.MaxLength = 14;
-            this.txtI2.Name = "txtI2";
-            this.txtI2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtI2.Size = new System.Drawing.Size(121, 20);
-            this.txtI2.TabIndex = 183;
-            this.txtI2.Tag = "9";
-            this.txtI2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtI2.Enter += new System.EventHandler(this.OnEnter);
-            this.txtI2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtI2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtI2.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f2.Location = new System.Drawing.Point(31, 43);
+            this.tab9f2.MaxLength = 14;
+            this.tab9f2.Name = "tab9f2";
+            this.tab9f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f2.Size = new System.Drawing.Size(121, 20);
+            this.tab9f2.TabIndex = 183;
+            this.tab9f2.Tag = "4";
+            this.tab9f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label128
             // 
@@ -4229,20 +4025,20 @@
             this.label123.TabIndex = 180;
             this.label123.Text = "Manutenção    meses";
             // 
-            // txtI6
+            // tab9f9
             // 
-            this.txtI6.Location = new System.Drawing.Point(31, 245);
-            this.txtI6.MaxLength = 14;
-            this.txtI6.Name = "txtI6";
-            this.txtI6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtI6.Size = new System.Drawing.Size(121, 20);
-            this.txtI6.TabIndex = 179;
-            this.txtI6.Tag = "9";
-            this.txtI6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtI6.Enter += new System.EventHandler(this.OnEnter);
-            this.txtI6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtI6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtI6.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f9.Location = new System.Drawing.Point(31, 245);
+            this.tab9f9.MaxLength = 14;
+            this.tab9f9.Name = "tab9f9";
+            this.tab9f9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f9.Size = new System.Drawing.Size(121, 20);
+            this.tab9f9.TabIndex = 179;
+            this.tab9f9.Tag = "4";
+            this.tab9f9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f9.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f9.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f9.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label124
             // 
@@ -4279,20 +4075,20 @@
             this.label125.TabIndex = 176;
             this.label125.Text = "Seguro    meses";
             // 
-            // txtI5
+            // tab9f8
             // 
-            this.txtI5.Location = new System.Drawing.Point(31, 216);
-            this.txtI5.MaxLength = 14;
-            this.txtI5.Name = "txtI5";
-            this.txtI5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtI5.Size = new System.Drawing.Size(121, 20);
-            this.txtI5.TabIndex = 175;
-            this.txtI5.Tag = "9";
-            this.txtI5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtI5.Enter += new System.EventHandler(this.OnEnter);
-            this.txtI5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtI5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtI5.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f8.Location = new System.Drawing.Point(31, 216);
+            this.tab9f8.MaxLength = 14;
+            this.tab9f8.Name = "tab9f8";
+            this.tab9f8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f8.Size = new System.Drawing.Size(121, 20);
+            this.tab9f8.TabIndex = 175;
+            this.tab9f8.Tag = "4";
+            this.tab9f8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f8.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f8.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f8.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label126
             // 
@@ -4331,20 +4127,20 @@
             this.label101.TabIndex = 172;
             this.label101.Text = "Pneus de neve / Correntes de neve";
             // 
-            // textBox45
+            // tab9f7
             // 
-            this.textBox45.Location = new System.Drawing.Point(31, 187);
-            this.textBox45.MaxLength = 14;
-            this.textBox45.Name = "textBox45";
-            this.textBox45.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox45.Size = new System.Drawing.Size(121, 20);
-            this.textBox45.TabIndex = 171;
-            this.textBox45.Tag = "4";
-            this.textBox45.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox45.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox45.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox45.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox45.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f7.Location = new System.Drawing.Point(31, 187);
+            this.tab9f7.MaxLength = 14;
+            this.tab9f7.Name = "tab9f7";
+            this.tab9f7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f7.Size = new System.Drawing.Size(121, 20);
+            this.tab9f7.TabIndex = 171;
+            this.tab9f7.Tag = "4";
+            this.tab9f7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f7.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f7.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label102
             // 
@@ -4381,20 +4177,20 @@
             this.label111.TabIndex = 168;
             this.label111.Text = "Habilitação Canadense";
             // 
-            // textBox50
+            // tab9f6
             // 
-            this.textBox50.Location = new System.Drawing.Point(31, 158);
-            this.textBox50.MaxLength = 14;
-            this.textBox50.Name = "textBox50";
-            this.textBox50.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox50.Size = new System.Drawing.Size(121, 20);
-            this.textBox50.TabIndex = 167;
-            this.textBox50.Tag = "4";
-            this.textBox50.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox50.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox50.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox50.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox50.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f6.Location = new System.Drawing.Point(31, 158);
+            this.tab9f6.MaxLength = 14;
+            this.tab9f6.Name = "tab9f6";
+            this.tab9f6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f6.Size = new System.Drawing.Size(121, 20);
+            this.tab9f6.TabIndex = 167;
+            this.tab9f6.Tag = "4";
+            this.tab9f6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f6.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f6.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label112
             // 
@@ -4431,20 +4227,20 @@
             this.label113.TabIndex = 164;
             this.label113.Text = "Gasolina    meses";
             // 
-            // txtI4
+            // tab9f5
             // 
-            this.txtI4.Location = new System.Drawing.Point(31, 129);
-            this.txtI4.MaxLength = 14;
-            this.txtI4.Name = "txtI4";
-            this.txtI4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtI4.Size = new System.Drawing.Size(121, 20);
-            this.txtI4.TabIndex = 163;
-            this.txtI4.Tag = "9";
-            this.txtI4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtI4.Enter += new System.EventHandler(this.OnEnter);
-            this.txtI4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtI4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtI4.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f5.Location = new System.Drawing.Point(31, 129);
+            this.tab9f5.MaxLength = 14;
+            this.tab9f5.Name = "tab9f5";
+            this.tab9f5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f5.Size = new System.Drawing.Size(121, 20);
+            this.tab9f5.TabIndex = 163;
+            this.tab9f5.Tag = "4";
+            this.tab9f5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f5.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f5.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label114
             // 
@@ -4482,20 +4278,20 @@
             this.label115.TabIndex = 160;
             this.label115.Text = "Venda do carro no Brasil";
             // 
-            // textBox52
+            // tab9f4
             // 
-            this.textBox52.Location = new System.Drawing.Point(31, 102);
-            this.textBox52.MaxLength = 14;
-            this.textBox52.Name = "textBox52";
-            this.textBox52.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox52.Size = new System.Drawing.Size(121, 20);
-            this.textBox52.TabIndex = 159;
-            this.textBox52.Tag = "1";
-            this.textBox52.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox52.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox52.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox52.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox52.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f4.Location = new System.Drawing.Point(31, 102);
+            this.tab9f4.MaxLength = 14;
+            this.tab9f4.Name = "tab9f4";
+            this.tab9f4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f4.Size = new System.Drawing.Size(121, 20);
+            this.tab9f4.TabIndex = 159;
+            this.tab9f4.Tag = "1";
+            this.tab9f4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f4.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f4.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label116
             // 
@@ -4532,20 +4328,20 @@
             this.label117.TabIndex = 156;
             this.label117.Text = "Compra do carro no Canadá    meses";
             // 
-            // txtI3
+            // tab9f3
             // 
-            this.txtI3.Location = new System.Drawing.Point(31, 73);
-            this.txtI3.MaxLength = 14;
-            this.txtI3.Name = "txtI3";
-            this.txtI3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtI3.Size = new System.Drawing.Size(121, 20);
-            this.txtI3.TabIndex = 155;
-            this.txtI3.Tag = "9";
-            this.txtI3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtI3.Enter += new System.EventHandler(this.OnEnter);
-            this.txtI3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtI3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtI3.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f3.Location = new System.Drawing.Point(31, 73);
+            this.tab9f3.MaxLength = 14;
+            this.tab9f3.Name = "tab9f3";
+            this.tab9f3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f3.Size = new System.Drawing.Size(121, 20);
+            this.tab9f3.TabIndex = 155;
+            this.tab9f3.Tag = "4";
+            this.tab9f3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f3.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f3.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label118
             // 
@@ -4583,20 +4379,20 @@
             this.label119.TabIndex = 152;
             this.label119.Text = "Transporte Público    meses";
             // 
-            // txtI1
+            // tab9f1
             // 
-            this.txtI1.Location = new System.Drawing.Point(31, 13);
-            this.txtI1.MaxLength = 14;
-            this.txtI1.Name = "txtI1";
-            this.txtI1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtI1.Size = new System.Drawing.Size(121, 20);
-            this.txtI1.TabIndex = 151;
-            this.txtI1.Tag = "9";
-            this.txtI1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.txtI1.Enter += new System.EventHandler(this.OnEnter);
-            this.txtI1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.txtI1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.txtI1.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab9f1.Location = new System.Drawing.Point(31, 13);
+            this.tab9f1.MaxLength = 14;
+            this.tab9f1.Name = "tab9f1";
+            this.tab9f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab9f1.Size = new System.Drawing.Size(121, 20);
+            this.tab9f1.TabIndex = 151;
+            this.tab9f1.Tag = "4";
+            this.tab9f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab9f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab9f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab9f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab9f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label120
             // 
@@ -4614,31 +4410,31 @@
             this.tabTravel.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
             this.tabTravel.Controls.Add(this.pictureBox82);
             this.tabTravel.Controls.Add(this.label143);
-            this.tabTravel.Controls.Add(this.textBox66);
+            this.tabTravel.Controls.Add(this.tab10f7);
             this.tabTravel.Controls.Add(this.label144);
             this.tabTravel.Controls.Add(this.pictureBox81);
             this.tabTravel.Controls.Add(this.label141);
-            this.tabTravel.Controls.Add(this.textBox65);
+            this.tabTravel.Controls.Add(this.tab10f6);
             this.tabTravel.Controls.Add(this.label142);
             this.tabTravel.Controls.Add(this.pictureBox75);
             this.tabTravel.Controls.Add(this.label129);
-            this.tabTravel.Controls.Add(this.textBox59);
+            this.tabTravel.Controls.Add(this.tab10f4);
             this.tabTravel.Controls.Add(this.label130);
             this.tabTravel.Controls.Add(this.pictureBox76);
             this.tabTravel.Controls.Add(this.label131);
-            this.tabTravel.Controls.Add(this.textBox60);
+            this.tabTravel.Controls.Add(this.tab10f5);
             this.tabTravel.Controls.Add(this.label132);
             this.tabTravel.Controls.Add(this.pictureBox77);
             this.tabTravel.Controls.Add(this.label133);
-            this.tabTravel.Controls.Add(this.textBox61);
+            this.tabTravel.Controls.Add(this.tab10f3);
             this.tabTravel.Controls.Add(this.label134);
             this.tabTravel.Controls.Add(this.pictureBox78);
             this.tabTravel.Controls.Add(this.label135);
-            this.tabTravel.Controls.Add(this.textBox62);
+            this.tabTravel.Controls.Add(this.tab10f2);
             this.tabTravel.Controls.Add(this.label136);
             this.tabTravel.Controls.Add(this.pictureBox79);
             this.tabTravel.Controls.Add(this.label137);
-            this.tabTravel.Controls.Add(this.textBox63);
+            this.tabTravel.Controls.Add(this.tab10f1);
             this.tabTravel.Controls.Add(this.label138);
             this.tabTravel.ImageIndex = 9;
             this.tabTravel.Location = new System.Drawing.Point(4, 47);
@@ -4672,20 +4468,20 @@
             this.label143.TabIndex = 208;
             this.label143.Text = "Levar pet na carga";
             // 
-            // textBox66
+            // tab10f7
             // 
-            this.textBox66.Location = new System.Drawing.Point(32, 197);
-            this.textBox66.MaxLength = 14;
-            this.textBox66.Name = "textBox66";
-            this.textBox66.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox66.Size = new System.Drawing.Size(121, 20);
-            this.textBox66.TabIndex = 207;
-            this.textBox66.Tag = "2";
-            this.textBox66.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox66.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox66.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox66.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox66.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab10f7.Location = new System.Drawing.Point(32, 197);
+            this.tab10f7.MaxLength = 14;
+            this.tab10f7.Name = "tab10f7";
+            this.tab10f7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab10f7.Size = new System.Drawing.Size(121, 20);
+            this.tab10f7.TabIndex = 207;
+            this.tab10f7.Tag = "2";
+            this.tab10f7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab10f7.Enter += new System.EventHandler(this.OnEnter);
+            this.tab10f7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab10f7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab10f7.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label144
             // 
@@ -4722,20 +4518,20 @@
             this.label141.TabIndex = 204;
             this.label141.Text = "Levar pet na cabine";
             // 
-            // textBox65
+            // tab10f6
             // 
-            this.textBox65.Location = new System.Drawing.Point(32, 167);
-            this.textBox65.MaxLength = 14;
-            this.textBox65.Name = "textBox65";
-            this.textBox65.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox65.Size = new System.Drawing.Size(121, 20);
-            this.textBox65.TabIndex = 203;
-            this.textBox65.Tag = "2";
-            this.textBox65.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox65.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox65.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox65.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox65.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab10f6.Location = new System.Drawing.Point(32, 167);
+            this.tab10f6.MaxLength = 14;
+            this.tab10f6.Name = "tab10f6";
+            this.tab10f6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab10f6.Size = new System.Drawing.Size(121, 20);
+            this.tab10f6.TabIndex = 203;
+            this.tab10f6.Tag = "2";
+            this.tab10f6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab10f6.Enter += new System.EventHandler(this.OnEnter);
+            this.tab10f6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab10f6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab10f6.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label142
             // 
@@ -4773,20 +4569,20 @@
             this.label129.TabIndex = 200;
             this.label129.Text = "Transporte saindo do aeroporto no Canadá";
             // 
-            // textBox59
+            // tab10f4
             // 
-            this.textBox59.Location = new System.Drawing.Point(32, 106);
-            this.textBox59.MaxLength = 14;
-            this.textBox59.Name = "textBox59";
-            this.textBox59.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox59.Size = new System.Drawing.Size(121, 20);
-            this.textBox59.TabIndex = 199;
-            this.textBox59.Tag = "4";
-            this.textBox59.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox59.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox59.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox59.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox59.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab10f4.Location = new System.Drawing.Point(32, 106);
+            this.tab10f4.MaxLength = 14;
+            this.tab10f4.Name = "tab10f4";
+            this.tab10f4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab10f4.Size = new System.Drawing.Size(121, 20);
+            this.tab10f4.TabIndex = 199;
+            this.tab10f4.Tag = "4";
+            this.tab10f4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab10f4.Enter += new System.EventHandler(this.OnEnter);
+            this.tab10f4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab10f4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab10f4.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label130
             // 
@@ -4824,20 +4620,20 @@
             this.label131.TabIndex = 196;
             this.label131.Text = "Transporte para o aeroporto no Brasil";
             // 
-            // textBox60
+            // tab10f5
             // 
-            this.textBox60.Location = new System.Drawing.Point(32, 136);
-            this.textBox60.MaxLength = 14;
-            this.textBox60.Name = "textBox60";
-            this.textBox60.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox60.Size = new System.Drawing.Size(121, 20);
-            this.textBox60.TabIndex = 195;
-            this.textBox60.Tag = "2";
-            this.textBox60.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox60.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox60.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox60.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox60.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab10f5.Location = new System.Drawing.Point(32, 136);
+            this.tab10f5.MaxLength = 14;
+            this.tab10f5.Name = "tab10f5";
+            this.tab10f5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab10f5.Size = new System.Drawing.Size(121, 20);
+            this.tab10f5.TabIndex = 195;
+            this.tab10f5.Tag = "2";
+            this.tab10f5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab10f5.Enter += new System.EventHandler(this.OnEnter);
+            this.tab10f5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab10f5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab10f5.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label132
             // 
@@ -4874,20 +4670,20 @@
             this.label133.TabIndex = 192;
             this.label133.Text = "Excesso de peso";
             // 
-            // textBox61
+            // tab10f3
             // 
-            this.textBox61.Location = new System.Drawing.Point(32, 76);
-            this.textBox61.MaxLength = 14;
-            this.textBox61.Name = "textBox61";
-            this.textBox61.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox61.Size = new System.Drawing.Size(121, 20);
-            this.textBox61.TabIndex = 191;
-            this.textBox61.Tag = "4";
-            this.textBox61.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox61.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox61.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox61.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox61.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab10f3.Location = new System.Drawing.Point(32, 76);
+            this.tab10f3.MaxLength = 14;
+            this.tab10f3.Name = "tab10f3";
+            this.tab10f3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab10f3.Size = new System.Drawing.Size(121, 20);
+            this.tab10f3.TabIndex = 191;
+            this.tab10f3.Tag = "4";
+            this.tab10f3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab10f3.Enter += new System.EventHandler(this.OnEnter);
+            this.tab10f3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab10f3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab10f3.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label134
             // 
@@ -4924,20 +4720,20 @@
             this.label135.TabIndex = 188;
             this.label135.Text = "Mala extra";
             // 
-            // textBox62
+            // tab10f2
             // 
-            this.textBox62.Location = new System.Drawing.Point(32, 47);
-            this.textBox62.MaxLength = 14;
-            this.textBox62.Name = "textBox62";
-            this.textBox62.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox62.Size = new System.Drawing.Size(121, 20);
-            this.textBox62.TabIndex = 187;
-            this.textBox62.Tag = "4";
-            this.textBox62.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox62.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox62.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox62.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox62.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab10f2.Location = new System.Drawing.Point(32, 47);
+            this.tab10f2.MaxLength = 14;
+            this.tab10f2.Name = "tab10f2";
+            this.tab10f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab10f2.Size = new System.Drawing.Size(121, 20);
+            this.tab10f2.TabIndex = 187;
+            this.tab10f2.Tag = "4";
+            this.tab10f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab10f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab10f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab10f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab10f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label136
             // 
@@ -4976,20 +4772,20 @@
             this.label137.TabIndex = 184;
             this.label137.Text = "Passagens aéreas (todas)";
             // 
-            // textBox63
+            // tab10f1
             // 
-            this.textBox63.Location = new System.Drawing.Point(32, 18);
-            this.textBox63.MaxLength = 14;
-            this.textBox63.Name = "textBox63";
-            this.textBox63.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox63.Size = new System.Drawing.Size(121, 20);
-            this.textBox63.TabIndex = 183;
-            this.textBox63.Tag = "4";
-            this.textBox63.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox63.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox63.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox63.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox63.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab10f1.Location = new System.Drawing.Point(32, 18);
+            this.tab10f1.MaxLength = 14;
+            this.tab10f1.Name = "tab10f1";
+            this.tab10f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab10f1.Size = new System.Drawing.Size(121, 20);
+            this.tab10f1.TabIndex = 183;
+            this.tab10f1.Tag = "4";
+            this.tab10f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab10f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab10f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab10f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab10f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label138
             // 
@@ -5006,12 +4802,12 @@
             // 
             this.tabQuestion.BackgroundImage = global::BudgetImmigration.Properties.Resources.Fundo_Azul;
             this.tabQuestion.Controls.Add(this.label4);
-            this.tabQuestion.Controls.Add(this.richTextBox2);
-            this.tabQuestion.Controls.Add(this.richTextBox1);
+            this.tabQuestion.Controls.Add(this.tab12f4);
+            this.tabQuestion.Controls.Add(this.tab12f3);
             this.tabQuestion.Controls.Add(this.label153);
             this.tabQuestion.Controls.Add(this.label152);
-            this.tabQuestion.Controls.Add(this.textBox68);
-            this.tabQuestion.Controls.Add(this.textBox67);
+            this.tabQuestion.Controls.Add(this.tab12f2);
+            this.tabQuestion.Controls.Add(this.tab12f1);
             this.tabQuestion.Controls.Add(this.label151);
             this.tabQuestion.Controls.Add(this.label150);
             this.tabQuestion.Controls.Add(this.label149);
@@ -5039,23 +4835,23 @@
             this.label4.TabIndex = 160;
             this.label4.Text = "um email com suas criticas e sugestões:";
             // 
-            // richTextBox2
+            // tab12f4
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(464, 214);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(198, 110);
-            this.richTextBox2.TabIndex = 158;
-            this.richTextBox2.Tag = "";
-            this.richTextBox2.Text = "Descrição";
+            this.tab12f4.Location = new System.Drawing.Point(464, 214);
+            this.tab12f4.Name = "tab12f4";
+            this.tab12f4.Size = new System.Drawing.Size(198, 110);
+            this.tab12f4.TabIndex = 158;
+            this.tab12f4.Tag = "";
+            this.tab12f4.Text = "Descrição";
             // 
-            // richTextBox1
+            // tab12f3
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(28, 214);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(198, 110);
-            this.richTextBox1.TabIndex = 157;
-            this.richTextBox1.Tag = "";
-            this.richTextBox1.Text = "Descrição";
+            this.tab12f3.Location = new System.Drawing.Point(28, 214);
+            this.tab12f3.Name = "tab12f3";
+            this.tab12f3.Size = new System.Drawing.Size(198, 110);
+            this.tab12f3.TabIndex = 157;
+            this.tab12f3.Tag = "";
+            this.tab12f3.Text = "Descrição";
             // 
             // label153
             // 
@@ -5079,35 +4875,35 @@
             this.label152.TabIndex = 155;
             this.label152.Text = "$";
             // 
-            // textBox68
+            // tab12f2
             // 
-            this.textBox68.Location = new System.Drawing.Point(500, 188);
-            this.textBox68.MaxLength = 14;
-            this.textBox68.Name = "textBox68";
-            this.textBox68.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox68.Size = new System.Drawing.Size(136, 20);
-            this.textBox68.TabIndex = 9;
-            this.textBox68.Tag = "3";
-            this.textBox68.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox68.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox68.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox68.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox68.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab12f2.Location = new System.Drawing.Point(500, 188);
+            this.tab12f2.MaxLength = 14;
+            this.tab12f2.Name = "tab12f2";
+            this.tab12f2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab12f2.Size = new System.Drawing.Size(136, 20);
+            this.tab12f2.TabIndex = 9;
+            this.tab12f2.Tag = "3";
+            this.tab12f2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab12f2.Enter += new System.EventHandler(this.OnEnter);
+            this.tab12f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab12f2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab12f2.Leave += new System.EventHandler(this.LeaveBox);
             // 
-            // textBox67
+            // tab12f1
             // 
-            this.textBox67.Location = new System.Drawing.Point(65, 188);
-            this.textBox67.MaxLength = 14;
-            this.textBox67.Name = "textBox67";
-            this.textBox67.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox67.Size = new System.Drawing.Size(136, 20);
-            this.textBox67.TabIndex = 8;
-            this.textBox67.Tag = "4";
-            this.textBox67.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
-            this.textBox67.Enter += new System.EventHandler(this.OnEnter);
-            this.textBox67.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
-            this.textBox67.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
-            this.textBox67.Leave += new System.EventHandler(this.LeaveBox);
+            this.tab12f1.Location = new System.Drawing.Point(65, 188);
+            this.tab12f1.MaxLength = 14;
+            this.tab12f1.Name = "tab12f1";
+            this.tab12f1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tab12f1.Size = new System.Drawing.Size(136, 20);
+            this.tab12f1.TabIndex = 8;
+            this.tab12f1.Tag = "4";
+            this.tab12f1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SetPosition);
+            this.tab12f1.Enter += new System.EventHandler(this.OnEnter);
+            this.tab12f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.tab12f1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Mask);
+            this.tab12f1.Leave += new System.EventHandler(this.LeaveBox);
             // 
             // label151
             // 
@@ -5397,6 +5193,202 @@
             this.label5.Text = "Considere também nos seguir nas redes sociais. \r\nPostamos dicas, fotos, videos e " +
     "muito mais !";
             // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.Tag = "0";
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "1.png");
+            this.imageList.Images.SetKeyName(1, "2.png");
+            this.imageList.Images.SetKeyName(2, "3.png");
+            this.imageList.Images.SetKeyName(3, "5.png");
+            this.imageList.Images.SetKeyName(4, "7.png");
+            this.imageList.Images.SetKeyName(5, "8.png");
+            this.imageList.Images.SetKeyName(6, "9.png");
+            this.imageList.Images.SetKeyName(7, "10.png");
+            this.imageList.Images.SetKeyName(8, "11.png");
+            this.imageList.Images.SetKeyName(9, "13.png");
+            this.imageList.Images.SetKeyName(10, "14.png");
+            this.imageList.Images.SetKeyName(11, "15.png");
+            this.imageList.Images.SetKeyName(12, "We are having a baby girl!.png");
+            // 
+            // toolTip1
+            // 
+            this.toolTip1.AutoPopDelay = 5000;
+            this.toolTip1.InitialDelay = 500;
+            this.toolTip1.IsBalloon = true;
+            this.toolTip1.ReshowDelay = 100;
+            this.toolTip1.ToolTipTitle = "Dica";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label12.Location = new System.Drawing.Point(4, 31);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(142, 29);
+            this.label12.TabIndex = 35;
+            this.label12.Text = "Positivos Ano";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label37.Location = new System.Drawing.Point(4, 91);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(153, 29);
+            this.label37.TabIndex = 36;
+            this.label37.Text = "Negativos Ano";
+            // 
+            // tesetv
+            // 
+            this.tesetv.AutoSize = true;
+            this.tesetv.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tesetv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tesetv.Location = new System.Drawing.Point(4, 155);
+            this.tesetv.Name = "tesetv";
+            this.tesetv.Size = new System.Drawing.Size(173, 29);
+            this.tesetv.TabIndex = 37;
+            this.tesetv.Text = "Resultado Ano $";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.yearPrevBRL);
+            this.groupBox1.Controls.Add(this.lblReal);
+            this.groupBox1.Controls.Add(this.tesetv);
+            this.groupBox1.Controls.Add(this.yearPrevCND);
+            this.groupBox1.Controls.Add(this.label37);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.lblDolar);
+            this.groupBox1.Controls.Add(this.negPrev);
+            this.groupBox1.Controls.Add(this.label43);
+            this.groupBox1.Controls.Add(this.posPrev);
+            this.groupBox1.Controls.Add(this.label41);
+            this.groupBox1.Controls.Add(this.pictureBox21);
+            this.groupBox1.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.groupBox1.Location = new System.Drawing.Point(778, 13);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(204, 389);
+            this.groupBox1.TabIndex = 39;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Resumo Financeiro";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label3.Location = new System.Drawing.Point(4, 209);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(186, 29);
+            this.label3.TabIndex = 46;
+            this.label3.Text = "Resultado Ano R$";
+            // 
+            // yearPrevBRL
+            // 
+            this.yearPrevBRL.AutoSize = true;
+            this.yearPrevBRL.BackColor = System.Drawing.Color.Transparent;
+            this.yearPrevBRL.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yearPrevBRL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.yearPrevBRL.Location = new System.Drawing.Point(40, 238);
+            this.yearPrevBRL.Name = "yearPrevBRL";
+            this.yearPrevBRL.Size = new System.Drawing.Size(110, 25);
+            this.yearPrevBRL.TabIndex = 48;
+            this.yearPrevBRL.Text = "000.000,00";
+            this.yearPrevBRL.TextChanged += new System.EventHandler(this.LabelMask);
+            // 
+            // lblReal
+            // 
+            this.lblReal.AutoSize = true;
+            this.lblReal.BackColor = System.Drawing.Color.Transparent;
+            this.lblReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblReal.Location = new System.Drawing.Point(12, 238);
+            this.lblReal.Name = "lblReal";
+            this.lblReal.Size = new System.Drawing.Size(36, 25);
+            this.lblReal.TabIndex = 47;
+            this.lblReal.Text = "R$";
+            // 
+            // yearPrevCND
+            // 
+            this.yearPrevCND.AutoSize = true;
+            this.yearPrevCND.BackColor = System.Drawing.Color.Transparent;
+            this.yearPrevCND.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yearPrevCND.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.yearPrevCND.Location = new System.Drawing.Point(40, 183);
+            this.yearPrevCND.Name = "yearPrevCND";
+            this.yearPrevCND.Size = new System.Drawing.Size(110, 25);
+            this.yearPrevCND.TabIndex = 45;
+            this.yearPrevCND.Text = "000.000,00";
+            this.yearPrevCND.TextChanged += new System.EventHandler(this.LabelMask);
+            // 
+            // lblDolar
+            // 
+            this.lblDolar.AutoSize = true;
+            this.lblDolar.BackColor = System.Drawing.Color.Transparent;
+            this.lblDolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDolar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblDolar.Location = new System.Drawing.Point(25, 183);
+            this.lblDolar.Name = "lblDolar";
+            this.lblDolar.Size = new System.Drawing.Size(23, 25);
+            this.lblDolar.TabIndex = 44;
+            this.lblDolar.Text = "$";
+            // 
+            // negPrev
+            // 
+            this.negPrev.AutoSize = true;
+            this.negPrev.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.negPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.negPrev.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.negPrev.Location = new System.Drawing.Point(40, 122);
+            this.negPrev.Name = "negPrev";
+            this.negPrev.Size = new System.Drawing.Size(110, 25);
+            this.negPrev.TabIndex = 43;
+            this.negPrev.Text = "000.000,00";
+            this.negPrev.TextChanged += new System.EventHandler(this.LabelMask);
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label43.Location = new System.Drawing.Point(25, 122);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(23, 25);
+            this.label43.TabIndex = 42;
+            this.label43.Text = "$";
+            // 
+            // posPrev
+            // 
+            this.posPrev.AutoSize = true;
+            this.posPrev.BackColor = System.Drawing.Color.Lime;
+            this.posPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.posPrev.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.posPrev.Location = new System.Drawing.Point(40, 60);
+            this.posPrev.Name = "posPrev";
+            this.posPrev.Size = new System.Drawing.Size(110, 25);
+            this.posPrev.TabIndex = 41;
+            this.posPrev.Text = "000.000,00";
+            this.posPrev.TextChanged += new System.EventHandler(this.LabelMask);
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.Lime;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label41.Location = new System.Drawing.Point(25, 60);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(23, 25);
+            this.label41.TabIndex = 40;
+            this.label41.Text = "$";
+            // 
             // pictureBox21
             // 
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
@@ -5406,6 +5398,14 @@
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 34;
             this.pictureBox21.TabStop = false;
+            // 
+            // fileLoad
+            // 
+            this.fileLoad.FileName = "openFileDialog1";
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
             // 
             // NewBugdet
             // 
@@ -5421,8 +5421,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.NewBugdet_Load);
             this.MainTab.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.tabCurrency.ResumeLayout(false);
             this.tabCurrency.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -5524,6 +5522,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             this.ResumeLayout(false);
 
@@ -5563,38 +5563,38 @@
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox tab1f11;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox txtB9;
+        private System.Windows.Forms.TextBox tab1f10;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox txtB8;
+        private System.Windows.Forms.TextBox tab1f9;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox txtB7;
+        private System.Windows.Forms.TextBox tab1f8;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox txtB6;
+        private System.Windows.Forms.TextBox tab1f7;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox txtB5;
+        private System.Windows.Forms.TextBox tab1f6;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox txtB4;
+        private System.Windows.Forms.TextBox tab1f5;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox txtB3;
+        private System.Windows.Forms.TextBox tab1f4;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txtB2;
+        private System.Windows.Forms.TextBox tab1f3;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtBoxMobilia;
+        private System.Windows.Forms.TextBox tab1f2;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox txtB1;
+        private System.Windows.Forms.TextBox tab1f1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TabPage tabRelax;
@@ -5602,7 +5602,7 @@
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label tesetv;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label yearPrev;
+        private System.Windows.Forms.Label yearPrevCND;
         private System.Windows.Forms.Label lblDolar;
         private System.Windows.Forms.Label negPrev;
         private System.Windows.Forms.Label label43;
@@ -5610,35 +5610,35 @@
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.PictureBox pictureBox25;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox txtC3;
+        private System.Windows.Forms.TextBox tab2f3;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox txtC2;
+        private System.Windows.Forms.TextBox tab2f2;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.TextBox txtC1;
+        private System.Windows.Forms.TextBox tab2f1;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.PictureBox pictureBox28;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.TextBox txtD2;
+        private System.Windows.Forms.TextBox tab3f2;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.PictureBox pictureBox32;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.TextBox txtD1;
+        private System.Windows.Forms.TextBox tab3f1;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.PictureBox pictureBox35;
         private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.TextBox txtC6;
+        private System.Windows.Forms.TextBox tab2f6;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.PictureBox pictureBox34;
         private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.TextBox txtC5;
+        private System.Windows.Forms.TextBox tab2f5;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.PictureBox pictureBox33;
         private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.TextBox txtC4;
+        private System.Windows.Forms.TextBox tab2f4;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.PictureBox pictureBox40;
         private System.Windows.Forms.Label label63;
@@ -5654,172 +5654,172 @@
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.PictureBox pictureBox36;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.TextBox txtE2;
+        private System.Windows.Forms.TextBox tab4f2;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.PictureBox pictureBox37;
         private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.TextBox txtE1;
+        private System.Windows.Forms.TextBox tab4f1;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.PictureBox pictureBox44;
         private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.TextBox txtF1;
+        private System.Windows.Forms.TextBox tab5f2;
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.PictureBox pictureBox45;
         private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox tab5f1;
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.PictureBox pictureBox46;
         private System.Windows.Forms.Label label75;
-        private System.Windows.Forms.TextBox txtG2;
+        private System.Windows.Forms.TextBox tab6f2;
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.PictureBox pictureBox47;
         private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.TextBox txtG1;
+        private System.Windows.Forms.TextBox tab6f1;
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.PictureBox pictureBox53;
         private System.Windows.Forms.Label label89;
-        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox tab7f3;
         private System.Windows.Forms.Label label90;
         private System.Windows.Forms.PictureBox pictureBox41;
         private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox tab7f5;
         private System.Windows.Forms.Label label66;
         private System.Windows.Forms.PictureBox pictureBox42;
         private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox tab7f4;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.PictureBox pictureBox48;
         private System.Windows.Forms.Label label79;
-        private System.Windows.Forms.TextBox txtH2;
+        private System.Windows.Forms.TextBox tab7f2;
         private System.Windows.Forms.Label label80;
         private System.Windows.Forms.PictureBox pictureBox49;
         private System.Windows.Forms.Label label81;
-        private System.Windows.Forms.TextBox txtH1;
+        private System.Windows.Forms.TextBox tab7f1;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.PictureBox pictureBox71;
         private System.Windows.Forms.Label label121;
-        private System.Windows.Forms.TextBox txtC9;
+        private System.Windows.Forms.TextBox tab2f9;
         private System.Windows.Forms.Label label122;
         private System.Windows.Forms.PictureBox pictureBox64;
         private System.Windows.Forms.Label label107;
-        private System.Windows.Forms.TextBox txtC8;
+        private System.Windows.Forms.TextBox tab2f8;
         private System.Windows.Forms.Label label108;
         private System.Windows.Forms.PictureBox pictureBox65;
         private System.Windows.Forms.Label label109;
-        private System.Windows.Forms.TextBox txtC7;
+        private System.Windows.Forms.TextBox tab2f7;
         private System.Windows.Forms.Label label110;
         private System.Windows.Forms.PictureBox pictureBox62;
         private System.Windows.Forms.Label label103;
-        private System.Windows.Forms.TextBox textBox46;
+        private System.Windows.Forms.TextBox tab8f10;
         private System.Windows.Forms.Label label104;
         private System.Windows.Forms.PictureBox pictureBox63;
         private System.Windows.Forms.Label label105;
-        private System.Windows.Forms.TextBox textBox47;
+        private System.Windows.Forms.TextBox tab8f9;
         private System.Windows.Forms.Label label106;
         private System.Windows.Forms.PictureBox pictureBox60;
         private System.Windows.Forms.Label label99;
-        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox tab8f8;
         private System.Windows.Forms.Label label100;
         private System.Windows.Forms.PictureBox pictureBox58;
         private System.Windows.Forms.Label label95;
-        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.TextBox tab8f7;
         private System.Windows.Forms.Label label96;
         private System.Windows.Forms.PictureBox pictureBox59;
         private System.Windows.Forms.Label label97;
-        private System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.TextBox tab8f6;
         private System.Windows.Forms.Label label98;
         private System.Windows.Forms.PictureBox pictureBox56;
         private System.Windows.Forms.Label label91;
-        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox tab8f5;
         private System.Windows.Forms.Label label92;
         private System.Windows.Forms.PictureBox pictureBox57;
         private System.Windows.Forms.Label label93;
-        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.TextBox tab8f4;
         private System.Windows.Forms.Label label94;
         private System.Windows.Forms.PictureBox pictureBox54;
         private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.TextBox tab8f3;
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.PictureBox pictureBox55;
         private System.Windows.Forms.Label label87;
-        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.TextBox tab8f1;
         private System.Windows.Forms.Label label88;
         private System.Windows.Forms.PictureBox pictureBox66;
         private System.Windows.Forms.Label label111;
-        private System.Windows.Forms.TextBox textBox50;
+        private System.Windows.Forms.TextBox tab9f6;
         private System.Windows.Forms.Label label112;
         private System.Windows.Forms.PictureBox pictureBox67;
         private System.Windows.Forms.Label label113;
-        private System.Windows.Forms.TextBox txtI4;
+        private System.Windows.Forms.TextBox tab9f5;
         private System.Windows.Forms.Label label114;
         private System.Windows.Forms.PictureBox pictureBox68;
         private System.Windows.Forms.Label label115;
-        private System.Windows.Forms.TextBox textBox52;
+        private System.Windows.Forms.TextBox tab9f4;
         private System.Windows.Forms.Label label116;
         private System.Windows.Forms.PictureBox pictureBox69;
         private System.Windows.Forms.Label label117;
-        private System.Windows.Forms.TextBox txtI3;
+        private System.Windows.Forms.TextBox tab9f3;
         private System.Windows.Forms.Label label118;
         private System.Windows.Forms.PictureBox pictureBox70;
         private System.Windows.Forms.Label label119;
-        private System.Windows.Forms.TextBox txtI1;
+        private System.Windows.Forms.TextBox tab9f1;
         private System.Windows.Forms.Label label120;
         private System.Windows.Forms.PictureBox pictureBox61;
         private System.Windows.Forms.Label label101;
-        private System.Windows.Forms.TextBox textBox45;
+        private System.Windows.Forms.TextBox tab9f7;
         private System.Windows.Forms.Label label102;
         private System.Windows.Forms.PictureBox pictureBox72;
         private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.TextBox txtI6;
+        private System.Windows.Forms.TextBox tab9f9;
         private System.Windows.Forms.Label label124;
         private System.Windows.Forms.PictureBox pictureBox73;
         private System.Windows.Forms.Label label125;
-        private System.Windows.Forms.TextBox txtI5;
+        private System.Windows.Forms.TextBox tab9f8;
         private System.Windows.Forms.Label label126;
         private System.Windows.Forms.PictureBox pictureBox74;
         private System.Windows.Forms.Label label127;
-        private System.Windows.Forms.TextBox txtI2;
+        private System.Windows.Forms.TextBox tab9f2;
         private System.Windows.Forms.Label label128;
         private System.Windows.Forms.PictureBox pictureBox80;
         private System.Windows.Forms.Label label139;
-        private System.Windows.Forms.TextBox textBox64;
+        private System.Windows.Forms.TextBox tab9f10;
         private System.Windows.Forms.Label label140;
         private System.Windows.Forms.PictureBox pictureBox75;
         private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.TextBox textBox59;
+        private System.Windows.Forms.TextBox tab10f4;
         private System.Windows.Forms.Label label130;
         private System.Windows.Forms.PictureBox pictureBox76;
         private System.Windows.Forms.Label label131;
-        private System.Windows.Forms.TextBox textBox60;
+        private System.Windows.Forms.TextBox tab10f5;
         private System.Windows.Forms.Label label132;
         private System.Windows.Forms.PictureBox pictureBox77;
         private System.Windows.Forms.Label label133;
-        private System.Windows.Forms.TextBox textBox61;
+        private System.Windows.Forms.TextBox tab10f3;
         private System.Windows.Forms.Label label134;
         private System.Windows.Forms.PictureBox pictureBox78;
         private System.Windows.Forms.Label label135;
-        private System.Windows.Forms.TextBox textBox62;
+        private System.Windows.Forms.TextBox tab10f2;
         private System.Windows.Forms.Label label136;
         private System.Windows.Forms.PictureBox pictureBox79;
         private System.Windows.Forms.Label label137;
-        private System.Windows.Forms.TextBox textBox63;
+        private System.Windows.Forms.TextBox tab10f1;
         private System.Windows.Forms.Label label138;
         private System.Windows.Forms.PictureBox pictureBox82;
         private System.Windows.Forms.Label label143;
-        private System.Windows.Forms.TextBox textBox66;
+        private System.Windows.Forms.TextBox tab10f7;
         private System.Windows.Forms.Label label144;
         private System.Windows.Forms.PictureBox pictureBox81;
         private System.Windows.Forms.Label label141;
-        private System.Windows.Forms.TextBox textBox65;
+        private System.Windows.Forms.TextBox tab10f6;
         private System.Windows.Forms.Label label142;
         private System.Windows.Forms.TabPage tabQuestion;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox tab12f4;
+        private System.Windows.Forms.RichTextBox tab12f3;
         private System.Windows.Forms.Label label153;
         private System.Windows.Forms.Label label152;
-        private System.Windows.Forms.TextBox textBox68;
-        private System.Windows.Forms.TextBox textBox67;
+        private System.Windows.Forms.TextBox tab12f2;
+        private System.Windows.Forms.TextBox tab12f1;
         private System.Windows.Forms.Label label151;
         private System.Windows.Forms.Label label150;
         private System.Windows.Forms.Label label149;
@@ -5829,43 +5829,43 @@
         private System.Windows.Forms.Label label145;
         private System.Windows.Forms.Label label154;
         private System.Windows.Forms.TextBox txtCurrency;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox txtB99;
-        private System.Windows.Forms.TextBox txtB88;
-        private System.Windows.Forms.TextBox txtB77;
-        private System.Windows.Forms.TextBox txtB66;
-        private System.Windows.Forms.TextBox txtB55;
-        private System.Windows.Forms.TextBox txtB44;
-        private System.Windows.Forms.TextBox txtB33;
-        private System.Windows.Forms.TextBox txtB22;
-        private System.Windows.Forms.TextBox txtB11;
-        private System.Windows.Forms.TextBox txtC77;
-        private System.Windows.Forms.TextBox txtC88;
-        private System.Windows.Forms.TextBox txtC99;
-        private System.Windows.Forms.TextBox txtC33;
-        private System.Windows.Forms.TextBox txtC44;
-        private System.Windows.Forms.TextBox txtC55;
-        private System.Windows.Forms.TextBox txtC66;
-        private System.Windows.Forms.TextBox txtC22;
-        private System.Windows.Forms.TextBox txtC11;
-        private System.Windows.Forms.TextBox txtD11;
-        private System.Windows.Forms.TextBox txtD22;
-        private System.Windows.Forms.TextBox txtE11;
-        private System.Windows.Forms.TextBox txtE22;
-        private System.Windows.Forms.TextBox txtF11;
-        private System.Windows.Forms.TextBox txtG22;
-        private System.Windows.Forms.TextBox txtG11;
-        private System.Windows.Forms.TextBox txtI66;
-        private System.Windows.Forms.TextBox txtI55;
-        private System.Windows.Forms.TextBox txtI44;
-        private System.Windows.Forms.TextBox txtI33;
-        private System.Windows.Forms.TextBox txtI22;
-        private System.Windows.Forms.TextBox txtI11;
-        private System.Windows.Forms.TextBox txtH22;
-        private System.Windows.Forms.TextBox txtH11;
+        private System.Windows.Forms.TextBox txtMoneySaved;
+        private System.Windows.Forms.TextBox tab1f10s;
+        private System.Windows.Forms.TextBox tab1f9s;
+        private System.Windows.Forms.TextBox tab1f8s;
+        private System.Windows.Forms.TextBox tab1f7s;
+        private System.Windows.Forms.TextBox tab1f6s;
+        private System.Windows.Forms.TextBox tab1f5s;
+        private System.Windows.Forms.TextBox tab1f4s;
+        private System.Windows.Forms.TextBox tab1f3s;
+        private System.Windows.Forms.TextBox tab1f1s;
+        private System.Windows.Forms.TextBox tab2f7s;
+        private System.Windows.Forms.TextBox tab2f8s;
+        private System.Windows.Forms.TextBox tab2f9s;
+        private System.Windows.Forms.TextBox tab2f3s;
+        private System.Windows.Forms.TextBox tab2f4s;
+        private System.Windows.Forms.TextBox tab2f5s;
+        private System.Windows.Forms.TextBox tab2f6s;
+        private System.Windows.Forms.TextBox tab2f2s;
+        private System.Windows.Forms.TextBox tab2f1s;
+        private System.Windows.Forms.TextBox tab3f1s;
+        private System.Windows.Forms.TextBox tab3f2s;
+        private System.Windows.Forms.TextBox tab4f1s;
+        private System.Windows.Forms.TextBox tab4f2s;
+        private System.Windows.Forms.TextBox tab5f2s;
+        private System.Windows.Forms.TextBox tab6f2s;
+        private System.Windows.Forms.TextBox tab6f1s;
+        private System.Windows.Forms.TextBox tab9f9s;
+        private System.Windows.Forms.TextBox tab9f8s;
+        private System.Windows.Forms.TextBox tab9f5s;
+        private System.Windows.Forms.TextBox tab9f3s;
+        private System.Windows.Forms.TextBox tab9f2s;
+        private System.Windows.Forms.TextBox tab9f1s;
+        private System.Windows.Forms.TextBox tab7f2s;
+        private System.Windows.Forms.TextBox tab7f1s;
         private System.Windows.Forms.PictureBox pictureBox43;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox tab8f2;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.PictureBox pictureBox50;
         private System.Windows.Forms.Label label69;
@@ -5873,7 +5873,7 @@
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblAnoReal;
+        private System.Windows.Forms.Label yearPrevBRL;
         private System.Windows.Forms.Label lblReal;
         private System.Windows.Forms.TabPage Menu;
         private System.Windows.Forms.LinkLabel linkLabel4;
@@ -5897,7 +5897,7 @@
         private System.Windows.Forms.PrintDialog printDialog1;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tab8f11;
         private System.Windows.Forms.Label label7;
     }
 }

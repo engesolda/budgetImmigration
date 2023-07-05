@@ -26,6 +26,8 @@ using System.Threading;
  * 11- Semesters
  */
 
+
+
 namespace BudgetImmigration
 {
     public partial class NewBugdet : Form
@@ -49,7 +51,7 @@ namespace BudgetImmigration
             btnNewForm.BackColor = Color.LightGreen;
         }
 
-        #region "TextBox General Events"
+        #region "TextBox Events"
         private void OnlyNumbers(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
@@ -79,27 +81,18 @@ namespace BudgetImmigration
             {
                 j++;
 
-                newStr = oldStr.Substring(i, 1) + newStr;
-
                 if (j == 2)
                 {
+                    // In Brazil we use , for decimal
                     newStr = ',' + newStr;
                 }
 
-                if (j == 5)
+                if (j >= 5 && (j+1) % 3 == 0) // starting at 5, every 3 digits get a .
                 {
                     newStr = '.' + newStr;
                 }
 
-                if (j == 8)
-                {
-                    newStr = '.' + newStr;
-                }
-            }
-
-            if (newStr.IndexOf('.') == 0 || (newStr.IndexOf(',') == 0))
-            {
-                newStr = newStr.Substring(1, (newStr.Length - 1));
+                newStr = oldStr.Substring(i, 1) + newStr;
             }
 
             txtBox.Text = newStr;
@@ -122,28 +115,19 @@ namespace BudgetImmigration
                 string txt = txtBox.Text.Replace(".", "");
                 txt = txt.Replace(",", "");
 
-                if (Convert.ToInt64(txt) > 12 && txtBox.Tag.ToString() == "10")
+                // Limit sibling on the 0-12 inclusive range
+                if (Convert.ToInt64(txt) > 12 && txtBox.Name.Contains("s"))
                 {
                     txtBox.Text = "12";
                 }
 
-                if (Convert.ToInt64(txt) < 0 && txtBox.Tag.ToString() == "10")
-                {
-                    txtBox.Text = "0";
-                }
-
-                if (Convert.ToInt64(txt) > 2 && txtBox.Tag.ToString() == "11")
-                {
-                    txtBox.Text = "2";
-                }
-
-                if (Convert.ToInt64(txt) < 0 && txtBox.Tag.ToString() == "11")
+                if (Convert.ToInt64(txt) < 0 && txtBox.Name.Contains("s"))
                 {
                     txtBox.Text = "0";
                 }
             }
 
-            // Only update if the value actually changed
+            // Only update the preview board if the value actually changed
             if (lastValue != txtBox.Text)
             {
                 UpdateFinancialPreview();
@@ -152,31 +136,6 @@ namespace BudgetImmigration
         #endregion
 
         #region "Family & Pets"
-        /*private void txtAdulto_TextChanged(object sender, EventArgs e)
-        {
-            adults = Convert.ToInt64(((TextBox)sender).Text);
-        }
-
-        private void txtKid_TextChanged(object sender, EventArgs e)
-        {
-            kids = Convert.ToInt64(((TextBox)sender).Text);
-        }
-
-        private void txtBigDog_TextChanged(object sender, EventArgs e)
-        {
-            bDogs = Convert.ToInt64(((TextBox)sender).Text);
-        }
-
-        private void txtSmallDog_TextChanged(object sender, EventArgs e)
-        {
-            sDogs = Convert.ToInt64(((TextBox)sender).Text);
-        }
-        
-        private void txtCat_TextChanged(object sender, EventArgs e)
-        {
-            cats = Convert.ToInt64(((TextBox)sender).Text);
-        }*/
-
         private void LabelMask(object sender, EventArgs e)
         {
             Label lblTxt = (Label)sender;
@@ -221,191 +180,129 @@ namespace BudgetImmigration
 
             if (lblTxt.Name == "yearPrev")
             {
-                lblAnoReal.Text = Math.Round((Convert.ToDecimal(lblTxt.Text.Replace(".","")) * currency), 2).ToString();
+                yearPrevBRL.Text = Math.Round((Convert.ToDecimal(lblTxt.Text.Replace(".","")) * currency), 2).ToString();
             }
         }
         #endregion
 
+        #region "Fields Management"
         private void txtCurrency_Leave(object sender, EventArgs e)
         {
             currency = Convert.ToDecimal(((TextBox)sender).Text);
+            currency = currency > 0 ? currency : 1;
+            ((TextBox)sender).Text = currency.ToString();
 
             posPrev.Text = "0";
             negPrev.Text = "0";
-            yearPrev.Text = "0";
+            yearPrevCND.Text = "0";
 
             UpdateFinancialPreview();
         }
 
-        public void ChangeFinancialPreview(decimal _amount, string _operation, long _months)
-        {
-            decimal yearValue;
-            decimal positive = 0;
-            decimal negative = 0;
-
-            if (_operation == "add")
-            {
-                positive = String.IsNullOrEmpty(posPrev.Text) ? 0 : Convert.ToDecimal(posPrev.Text.Replace(".", ""));
-
-                positive += (_amount * _months);
-                positive = Math.Round(positive, 2);
-                posPrev.Text = positive.ToString();
-                negative = Convert.ToDecimal(negPrev.Text.Replace(".", ""));
-            }
-            if (_operation == "sub")
-            {
-                negative = String.IsNullOrEmpty(negPrev.Text) ? 0 : Convert.ToDecimal(negPrev.Text.Replace(".", ""));
-
-                negative += (_amount * _months);
-                negative = Math.Round(negative, 2);
-                negPrev.Text = negative.ToString();
-                positive = Convert.ToDecimal(posPrev.Text.Replace(".", ""));
-            }
-
-            yearValue = Math.Round(_amount * _months, 2);
-            yearPrev.Text = (positive - negative).ToString();
-
-            if (Convert.ToDecimal(posPrev.Text.Replace(".", "")) > Convert.ToDecimal(negPrev.Text.Replace(".","")))
-            {
-                yearPrev.BackColor = Color.Lime;
-                lblDolar.BackColor = Color.Lime;
-
-                lblAnoReal.BackColor = yearPrev.BackColor;
-                lblReal.BackColor = lblDolar.BackColor;
-            }
-            if ((Convert.ToDecimal(posPrev.Text.Replace(".", "")) < Convert.ToDecimal(negPrev.Text.Replace(".", ""))))
-            {
-                yearPrev.BackColor = Color.FromArgb(192, 0, 0);
-                lblDolar.BackColor = Color.FromArgb(192, 0, 0);
-
-                lblAnoReal.BackColor = yearPrev.BackColor;
-                lblReal.BackColor = lblDolar.BackColor;
-            }
-        }
+        /*
+        * -TAGS of TextBox-
+        * 1- BRL cash addition
+        * 2- BRL cash removal
+        * 3- CND cash addition
+        * 4- CND cash removal
+        * 5- Do Nothing
         
+        * -TextBox naming system-
+        * Text boxes are named using "tab" + tab# + f + "f#" where f means field.
+        * So the first textBox of the first tab would be named tab1f1.
+        * If the field requires a month field to count how many month that field has to be multiplied then the sibling field will be named as following:
+        * "tab" + tab# + "f" + f# + "s" where s means sibling.
+        * So the sibiling field that holds the # of months for field 9 of tab 9 would be tab9f9s.
+        */
         private void UpdateFinancialPreview ()
         {
             posPrev.Text = "0";
             negPrev.Text = "0";
-            yearPrev.Text = "0";
-            long months = 12;
+            yearPrevCND.Text = "0";
+            decimal yearPositive = 0;
+            decimal yearNegative = 0;
+            decimal yearTotalCND = 0;
+            decimal tempValue = 0;
 
             foreach (TabPage tab in MainTab.TabPages)
             {
                 foreach (Control control in tab.Controls)
                 {
+                    tempValue = 0;
+
                     if (control.GetType().ToString() == "System.Windows.Forms.TextBox")
                     {
                         TextBox txtBox = ((TextBox)control);
-                        string value = txtBox.Text.Replace(".","");
-                        //value = value.Replace(",", ".");
 
-                        if (!String.IsNullOrEmpty(txtBox.Text))
+                        // We only want fields following tabXfY naming
+                        if (!String.IsNullOrEmpty(txtBox.Text) && txtBox.Name != "txtCurrency" && txtBox.Name != "txtMoneySaved" && !txtBox.Name.Contains("s"))
                         {
-                            // 1- BRL cash +
-                            if (txtBox.Tag != null && txtBox.Tag.ToString() == "1")
-                            {
-                                ChangeFinancialPreview(Convert.ToDecimal(value) / currency, "add", 1);
-                            }
+                            tempValue = Convert.ToDecimal(txtBox.Text.Replace(".", "")); // Revome de dots but leave the , so the decimal cast still works with decimal
 
-                            // 2- BRL cash -
-                            if (txtBox.Tag != null && txtBox.Tag.ToString() == "2")
+                            // First I just get the value of the field
+                            if (txtBox.Tag != null && (txtBox.Tag.ToString() == "1" || txtBox.Tag.ToString() == "2" ||
+                                                            txtBox.Tag.ToString() == "3" || txtBox.Tag.ToString() == "4"))
                             {
-                                ChangeFinancialPreview(Convert.ToDecimal(value) / currency, "sub", 1);
-                            }
-
-                            // 3- Dolar cash +
-                            if (txtBox.Tag != null && txtBox.Tag.ToString() == "3")
-                            {
-                                ChangeFinancialPreview(Convert.ToDecimal(value), "add", 1);
-                            }
-
-                            // 4- Dolar cash -
-                            if (txtBox.Tag != null && txtBox.Tag.ToString() == "4")
-                            {
-                                ChangeFinancialPreview(Convert.ToDecimal(value), "sub", 1);
-                            }
-
-                            // 6- Multiply BRL cash by 12 months +
-                            if (txtBox.Tag != null && txtBox.Tag.ToString() == "6")
-                            {
-                                foreach (Control box in tab.Controls)
+                                foreach (Control sibling in tab.Controls)
                                 {
-                                    if (box.GetType().ToString() == "System.Windows.Forms.TextBox")
+                                    // If its a monthly occurrence   
+                                    if (sibling.Name == control.Name + "s")
                                     {
-                                        // First box contains "txtBox1" the second must have the name "txtBox11"
-                                        string name = txtBox.Name + txtBox.Name.Substring(txtBox.Name.Length-1,1);
-                                        if (((TextBox)box).Name.Contains(name))
-                                        {
-                                            months = Convert.ToInt64(((TextBox)box).Text);
-                                        }
+                                        tempValue *= Convert.ToDecimal(sibling.Text);
                                     }
                                 }
-
-                                ChangeFinancialPreview(Convert.ToDecimal(value) / currency, "add", months);
                             }
 
-                            // 7 - Multiply Real cash by 12 months -
-                            if (txtBox.Tag != null && txtBox.Tag.ToString() == "7")
+                            // If its BRL I need to change the currency
+                            if (txtBox.Tag != null && (txtBox.Tag.ToString() == "1" || txtBox.Tag.ToString() == "2"))
                             {
-                                foreach (Control box in tab.Controls)
-                                {
-                                    if (box.GetType().ToString() == "System.Windows.Forms.TextBox")
-                                    {
-                                        // First box contains "txtBox1" the second must have the name "txtBox11"
-                                        string name = txtBox.Name + txtBox.Name.Substring(txtBox.Name.Length - 1, 1);
-                                        if (((TextBox)box).Name.Contains(name))
-                                        {
-                                            months = Convert.ToInt64(((TextBox)box).Text);
-                                        }
-                                    }
-                                }
-
-                                ChangeFinancialPreview(Convert.ToDecimal(value) / currency, "sub", months);
+                                tempValue /= currency;
                             }
 
-                            // 8- Multiply Dolar cash by 12 months +
-                            if (txtBox.Tag != null && txtBox.Tag.ToString() == "8")
+                            // If its an expense this value must be negative
+                            if (txtBox.Tag != null && (txtBox.Tag.ToString() == "2" || txtBox.Tag.ToString() == "4"))
                             {
-                                foreach (Control box in tab.Controls)
-                                {
-                                    if (box.GetType().ToString() == "System.Windows.Forms.TextBox")
-                                    {
-                                        // First box contains "txtBox1" the second must have the name "txtBox11"
-                                        string name = txtBox.Name + txtBox.Name.Substring(txtBox.Name.Length - 1, 1);
-                                        if (((TextBox)box).Name.Contains(name))
-                                        {
-                                            months = Convert.ToInt64(((TextBox)box).Text);
-                                        }
-                                    }
-                                }
-
-                                ChangeFinancialPreview(Convert.ToDecimal(value), "add", months);
-                            }
-
-                            // 9 - Multiply Dolar cash by 12 months -
-                            if (txtBox.Tag != null && txtBox.Tag.ToString() == "9")
+                                yearNegative += tempValue;
+                                tempValue *= -1;
+                            } else
                             {
-                                foreach (Control box in tab.Controls)
-                                {
-                                    if (box.GetType().ToString() == "System.Windows.Forms.TextBox")
-                                    {
-                                        // First box contains "txtBox1" the second must have the name "txtBox11"
-                                        string name = txtBox.Name + txtBox.Name.Substring(txtBox.Name.Length - 1, 1);
-                                        if (((TextBox)box).Name.Contains(name))
-                                        {
-                                            months = Convert.ToInt64(((TextBox)box).Text);
-                                        }
-                                    }
-                                }
-
-                                ChangeFinancialPreview(Convert.ToDecimal(value), "sub", months);
+                                yearPositive += tempValue;
                             }
                         }
                     }
+
+                    yearTotalCND += tempValue;
                 }
             }
+
+            setYearPrevText(yearPositive, yearNegative, yearTotalCND);
         }
+        public void setYearPrevText(decimal _yearPositive, decimal _yearNegative, decimal _yearTotalCND)
+        {
+            decimal yearProfit = _yearPositive - _yearNegative;
+            posPrev.Text = _yearPositive.ToString("F");
+            negPrev.Text = _yearNegative.ToString("F");
+            yearPrevCND.Text = _yearTotalCND.ToString("F");
+            yearPrevBRL.Text = Math.Round(yearProfit * currency, 2).ToString("F");
+
+            if (_yearPositive >= _yearNegative)
+            {
+                yearPrevCND.BackColor = Color.Lime;
+                lblDolar.BackColor = Color.Lime;
+
+                yearPrevBRL.BackColor = yearPrevCND.BackColor;
+                lblReal.BackColor = lblDolar.BackColor;
+            }
+            else
+            {
+                yearPrevCND.BackColor = Color.FromArgb(192, 0, 0);
+                lblDolar.BackColor = Color.FromArgb(192, 0, 0);
+
+                yearPrevBRL.BackColor = yearPrevCND.BackColor;
+                lblReal.BackColor = lblDolar.BackColor;
+            }
+        }
+        #endregion
 
         #region "Links"
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -455,7 +352,9 @@ namespace BudgetImmigration
                 MessageBox.Show("Unable to open link that was clicked.");
             }
         }
+        #endregion
 
+        #region "Filing System"
         private void NewBugdet_Load(object sender, EventArgs e)
         {
 
@@ -488,14 +387,9 @@ namespace BudgetImmigration
 
                                 txtbox.Text = "";
 
-                                if (txtbox.Tag != null && txtbox.Tag.ToString() == "10")
+                                if (txtbox.Tag != null && txtbox.Name.Contains("s"))
                                 {
                                     txtbox.Text = "12";
-                                }
-
-                                if (txtbox.Tag != null && txtbox.Tag.ToString() == "11")
-                                {
-                                    txtbox.Text = "2";
                                 }
 
                                 if (txtbox.Name == "txtCurrency")
@@ -506,12 +400,12 @@ namespace BudgetImmigration
                         }
                     }
 
-                    yearPrev.Text = "000.000,00";
+                    yearPrevCND.Text = "000.000,00";
                     negPrev.Text = "000.000,00";
                     posPrev.Text = "000.000,00";
-                    lblAnoReal.Text = "000.000,00";
+                    yearPrevBRL.Text = "000.000,00";
 
-                    lblDolar.BackColor = lblReal.BackColor = yearPrev.BackColor = lblAnoReal.BackColor = Color.Transparent;
+                    lblDolar.BackColor = lblReal.BackColor = yearPrevCND.BackColor = yearPrevBRL.BackColor = Color.Transparent;
 
                     SetFocusFirstTab();
                 }
@@ -519,7 +413,6 @@ namespace BudgetImmigration
             else
             {
                 locked = false;
-
                 Tutorial tutorial = new Tutorial();
                 tutorial.ShowDialog();
                 btnNewForm.BackColor = btnSave.BackColor;
@@ -548,33 +441,24 @@ namespace BudgetImmigration
             }
         }
 
+        /*
+         * Simple save using text file, this does not contain sensitive information so nothing complex is necessary here
+         */
         private void btnSave_Click(object sender, EventArgs e)
         {
+            //Override the loaded file
             if (loaded)
             {
-                string save = "";
-
-                foreach (TabPage tab in MainTab.TabPages)
-                {
-                    foreach (Control control in tab.Controls)
-                    {
-                        if (control.GetType().ToString() == "System.Windows.Forms.TextBox")
-                        {
-                            save += ((TextBox)control).Name + "-" + ((TextBox)control).Text + ";";
-                        }
-                    }
-                }
-
-                File.WriteAllText(@loadedPath, save);
+                saveFile(loadedPath);
             }
-            else
+            else // New save
             {
                 try
                 {
+                    // You cannot save until you started a new form
                     if (locked == false)
                     {
                         DialogResult result;
-                        string save = "";
                         string pathChoose = "";
 
                         result = savePath.ShowDialog();
@@ -583,18 +467,10 @@ namespace BudgetImmigration
 
                         if (result == DialogResult.OK)
                         {
-                            foreach (TabPage tab in MainTab.TabPages)
-                            {
-                                foreach (Control control in tab.Controls)
-                                {
-                                    if (control.GetType().ToString() == "System.Windows.Forms.TextBox")
-                                    {
-                                        save += ((TextBox)control).Name + "-" + ((TextBox)control).Text + ";";
-                                    }
-                                }
-                            }
-
-                            File.WriteAllText(@pathChoose, save);
+                            saveFile(pathChoose);
+                        } else
+                        {
+                            // TODO
                         }
                     }
                     else
@@ -611,42 +487,49 @@ namespace BudgetImmigration
 
         private void btnSaveAs_Click(object sender, EventArgs e)
         {
+            if (locked == false)
+            {
+                DialogResult result;
+                string pathChoose = "";
+
+                result = savePath.ShowDialog();
+                pathChoose = savePath.FileName;
+
+                // Just double checking
+                if (!pathChoose.Contains(".txt"))
+                {
+                    pathChoose += ".txt";
+                }
+
+                if (result == DialogResult.OK)
+                {
+                    saveFile(pathChoose);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Você ainda não carregou nenhum arquivo nem iniciou um novo planejamento.");
+            }
+        }
+
+        private void saveFile(string _path)
+        {
             try
             {
-                if (locked == false)
+                string save = "";
+
+                foreach (TabPage tab in MainTab.TabPages)
                 {
-                    DialogResult result;
-                    string save = "";
-                    string pathChoose = "";
-
-                    result = savePath.ShowDialog();
-                    pathChoose = savePath.FileName;
-
-                    if (!pathChoose.Contains(".txt"))
+                    foreach (Control control in tab.Controls)
                     {
-                        pathChoose += ".txt";
-                    }
-
-                    if (result == DialogResult.OK)
-                    {
-                        foreach (TabPage tab in MainTab.TabPages)
+                        if (control.GetType().ToString() == "System.Windows.Forms.TextBox")
                         {
-                            foreach (Control control in tab.Controls)
-                            {
-                                if (control.GetType().ToString() == "System.Windows.Forms.TextBox")
-                                {
-                                    save += ((TextBox)control).Name + "-" + ((TextBox)control).Text + ";";
-                                }
-                            }
+                            save += ((TextBox)control).Name + "-" + ((TextBox)control).Text + ";";
                         }
-
-                        File.WriteAllText(@pathChoose, save);
                     }
                 }
-                else
-                {
-                    MessageBox.Show("Você ainda não carregou nenhum arquivo nem iniciou um novo planejamento.");
-                }
+
+                File.WriteAllText(@_path, save);
             }
             catch (Exception ex)
             {
@@ -694,16 +577,14 @@ namespace BudgetImmigration
                     locked = false;
                     SetFocusFirstTab();
                     loadedPath = fileLoad.FileName;
-                    textBox1.Focus();
+                    txtMoneySaved.Focus();
+                } else
+                {
+                    // TODO
                 }
-            }
+            } 
         }
-        #endregion
-
-        /*private void calendarStart_DateSelected(object sender, DateRangeEventArgs e)
-        {
-            tripDate = calendarStart.SelectionRange.Start;
-        }*/
     }
+    #endregion
 }
 
