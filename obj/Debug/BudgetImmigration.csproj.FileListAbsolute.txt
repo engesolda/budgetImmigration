@@ -20,3 +20,13 @@ C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\B
 C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\BudgetImmigration.csproj.CoreCompileInputs.cache
 C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\Contabiliza Canadá.exe
 C:\Users\New User\Desktop\Canada\BudgetImmigration\BudgetImmigration\obj\Debug\Contabiliza Canadá.pdb
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\obj\Debug\BudgetImmigration.NewBugdet.resources
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\obj\Debug\BudgetImmigration.Properties.Resources.resources
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\obj\Debug\BudgetImmigration.Tutorial.resources
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\obj\Debug\BudgetImmigration.csproj.GenerateResource.cache
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\bin\Debug\Contabiliza Canadá.exe.config
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\bin\Debug\Contabiliza Canadá.exe
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\bin\Debug\Contabiliza Canadá.pdb
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\obj\Debug\Contabiliza Canadá.exe
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\obj\Debug\Contabiliza Canadá.pdb
+C:\Users\Ryan Santos\Documents\GitHub\budgetImmigration\obj\Debug\BudgetImmigration.csprojAssemblyReference.cache
